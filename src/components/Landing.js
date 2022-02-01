@@ -1,12 +1,15 @@
 import React from "react";
+// import useWindowSize from "../utils/useWindowSize";
 
 export default function Landing() {
+  // const { width } = useWindowSize();
+
   return (
     <div className="flex justify-center items-center space-x-40">
-      <div class="flex items-center justify-center h-screen ">
-        <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 h-80 px-20">
+      <div className="flex items-center justify-center h-screen ">
+        <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 h-80 px-20">
           {/* <img
-            class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto"
+            className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto"
             src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
             alt="product designer"
           /> */}
@@ -14,24 +17,24 @@ export default function Landing() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              class="bi bi-person"
+              className="bi bi-person"
               viewBox="0 0 16 16"
             >
               <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
             </svg>
           </div>
-          <h1 class="text-lg text-gray-700"> Vishal Shinde </h1>
-          <h3 class="text-sm text-gray-400 "> Doctor's Login </h3>
-          {/* <p class="text-xs text-gray-400 mt-4">
+          <h1 className="text-lg text-gray-700"> Vishal Shinde </h1>
+          <h3 className="text-sm text-gray-400 "> Doctor's Login </h3>
+          {/* <p className="text-xs text-gray-400 mt-4">
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p> */}
 
-          <button class="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
+          <button className="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 "
+              className="h-5 w-5 "
               viewBox="0 0 20 20"
               fill="currentColor"
               textAnchor="Login"
@@ -47,10 +50,10 @@ export default function Landing() {
           </button>
         </div>
       </div>
-      <div class="flex items-center justify-center h-screen ">
-        <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 h-80  px-20">
+      <div className="flex items-center justify-center h-screen ">
+        <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 h-80  px-20">
           {/* <img
-            class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto"
+            className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto"
             src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
             alt="product designer"
           /> */}
@@ -58,25 +61,25 @@ export default function Landing() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
-              class="bi bi-person-workspace"
+              className="bi bi-person-workspace"
               viewBox="0 0 16 16"
             >
               <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
               <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z" />
             </svg>
           </div>
-          <h1 class="text-lg text-gray-700"> {"Reception's Name"} </h1>
-          <h3 class="text-sm text-gray-400 "> Reception's Login </h3>
-          {/* <p class="text-xs text-gray-400 mt-4">
+          <h1 className="text-lg text-gray-700"> {"Reception's Name"} </h1>
+          <h3 className="text-sm text-gray-400 "> Reception's Login </h3>
+          {/* <p className="text-xs text-gray-400 mt-4">
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p> */}
 
-          <button class="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
+          <button className="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               viewBox="0 0 20 20"
               fill="currentColor"
               textAnchor="Login"
