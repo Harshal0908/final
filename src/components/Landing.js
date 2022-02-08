@@ -1,6 +1,5 @@
 import React from "react";
-// import useWindowSize from "../utils/useWindowSize";
-
+import { Link } from "react-router-dom";
 export default function Landing() {
   // const { width } = useWindowSize();
 
@@ -8,11 +7,6 @@ export default function Landing() {
     <div className="flex justify-center items-center space-x-40">
       <div className="flex items-center justify-center h-screen ">
         <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 h-80 px-20">
-          {/* <img
-            className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto"
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-            alt="product designer"
-          /> */}
           <div className="mb-3 w-32 h-32 rounded-full  mx-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -25,29 +19,26 @@ export default function Landing() {
           </div>
           <h1 className="text-lg text-gray-700"> Vishal Shinde </h1>
           <h3 className="text-sm text-gray-400 "> Doctor's Login </h3>
-          {/* <p className="text-xs text-gray-400 mt-4">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-          </p> */}
 
-          <button className="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 "
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              textAnchor="Login"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
-                clip-rule="evenodd"
+          <Link to="/login">
+            <button className="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 "
+                viewBox="0 0 20 20"
+                fill="currentColor"
                 textAnchor="Login"
-              />
-            </svg>
-            <div className="px-2">Login</div>
-          </button>
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                  clip-rule="evenodd"
+                  textAnchor="Login"
+                />
+              </svg>
+              <div className="px-2">Login</div>
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex items-center justify-center h-screen ">
