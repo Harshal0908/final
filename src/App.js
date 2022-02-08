@@ -1,7 +1,7 @@
 import "./App.css";
 import Landing from "./components/Landing";
 import Login from "./components/Login";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 
 export default function App() {

@@ -43,7 +43,7 @@ export default function Login() {
                 Remember Me
               </label>
             </div>
-            <a href="#" class="text-sm px-4">
+            <a href="/" class="text-sm px-4">
               Forgot password?
             </a>
           </div>
