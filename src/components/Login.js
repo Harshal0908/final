@@ -1,8 +1,9 @@
 import React from "react";
 import { FiLogIn } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link,useParams } from "react-router-dom";
 
 export default function Login() {
+  let { id } = useParams();
   return (
     <div className="flex justify-center items-center space-x-40">
       <div className="flex items-center justify-center h-screen ">
@@ -47,7 +48,7 @@ export default function Login() {
               Forgot password?
             </a>
           </div>
-          <Link to={"/home"}>
+         <Link to={"/doctor"}>
             <div class="mt-6">
               <button class="w-full inline-flex items-center justify-center px-4 py-2 bg-red-600 border border-transparent rounded-md font-semibold capitalize text-white hover:bg-red-700 active:bg-red-700 focus:outline-none focus:border-red-700 focus:ring focus:ring-red-200 disabled:opacity-25 transition">
                 <div className="px-2">Sign In</div> <FiLogIn />

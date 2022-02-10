@@ -17,7 +17,7 @@ export default function Landing() {
               <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
             </svg>
           </div>
-          <h1 className="text-lg text-gray-700"> Vishal Shinde </h1>
+          <h1 className="text-lg text-gray-700"> Vitthal Shinde </h1>
           <h3 className="text-sm text-gray-400 "> Doctor's Login </h3>
 
           <Link to="/login">
@@ -43,11 +43,7 @@ export default function Landing() {
       </div>
       <div className="flex items-center justify-center h-screen ">
         <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 h-80  px-20">
-          {/* <img
-            className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto"
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-            alt="product designer"
-          /> */}
+         
           <div className="mb-3 w-32 h-32 rounded-full  mx-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,12 +57,9 @@ export default function Landing() {
           </div>
           <h1 className="text-lg text-gray-700"> {"Reception's Name"} </h1>
           <h3 className="text-sm text-gray-400 "> Reception's Login </h3>
-          {/* <p className="text-xs text-gray-400 mt-4">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-          </p> */}
-
+         
+         
+           <Link to="/login">
           <button className="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -84,6 +77,7 @@ export default function Landing() {
             </svg>
             <div className="px-2">Login</div>
           </button>
+          </Link>
         </div>
       </div>
     </div>
