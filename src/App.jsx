@@ -3,7 +3,7 @@ import Landing from "./components/Landing";
 import Login from "./components/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DoctorHome from "./components/doctor/DoctorHome";
-import ReceptionHome from "./components/reception/ReceptionHome"
+import ReceptionHome from "./components/reception/ReceptionHome";
 export default function App() {
   return (
     <Router>
