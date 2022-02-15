@@ -46,7 +46,7 @@ export default class Navbar extends Component {
                       href="#pablo"
                     >
                       <i className="fab fa-facebook-square text-md leading-md text-black opacity-75"></i>
-                      <span className="ml-2">Share</span>
+                      <span className="ml-2">Patients</span>
                     </a>
                   </li>
                   <li className="nav-item">
@@ -55,9 +55,28 @@ export default class Navbar extends Component {
                       href="#pablo"
                     >
                       <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
-                      <span className="ml-2">Tweet</span>
+                      <span className="ml-2">Inventory</span>
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                      href="#pablo"
+                    >
+                      <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
+                      <span className="ml-2">Billing</span>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                      href="#pablo"
+                    >
+                      <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
+                      <span className="ml-2">Certificates</span>
+                    </a>
+                  </li>
+
                   <li className="nav-item">
                     <Link to="/login">
                       <button

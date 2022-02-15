@@ -7,8 +7,11 @@ export default class DoctorHome extends Component {
     return (
       <div>
         <Navbar role={"doctor"} />
-        <div className="grid grid-cols-2 gap-4">
-          <AppoitmentList />
+        <div className="flex items-start justify-evenly h-screen p-2">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div></div>
+            <AppoitmentList />
+          </div>
         </div>
       </div>
     );
