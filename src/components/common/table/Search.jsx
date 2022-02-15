@@ -8,7 +8,7 @@ const Search = (props) => {
         <input
           type="text"
           class="h-11 w-60 pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none"
-          placeholder="Search anything..."
+          placeholder="Search details.."
           onChange={(e) => {
             props.setSearchTerm(e.target.value);
           }}
