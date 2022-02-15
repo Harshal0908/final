@@ -9,7 +9,6 @@ export default class DoctorHome extends Component {
         <Navbar role={"doctor"} />
         <div className="grid grid-cols-2 gap-4">
           <AppoitmentList />
-          <AppoitmentList />
         </div>
       </div>
     );
