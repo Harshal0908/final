@@ -99,7 +99,7 @@ const TableData = (props) => {
                 sorting("last_name");
               }}
             >
-              Lasr
+              Last Name
             </th>
             <th
               className="px-4 py-3"
