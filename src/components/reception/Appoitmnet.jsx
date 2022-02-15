@@ -11,9 +11,10 @@ export default function Appoitmnet() {
     };
   });
   return (
-    <div>
+    <div className="py-8">
       <div className="max-w-sm mx-auto">
-        <form className="w-72">
+        <h1 class="font-semibold text-gray-800">New Appoitment</h1>
+        <form className="w-auto py-10">
           <div class="relative z-0 mb-6 w-full group">
             <input
               type="text"

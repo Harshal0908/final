@@ -6,13 +6,12 @@ import Appoitmnet from "./Appoitmnet";
 export default function ReceptionHome() {
   return (
     <div>
-      <Navbar />
-      <button class="mx-2 my-2 bg-white transition duration-150 ease-in-out  hover:bg-gray-200 rounded text-indigo-700 px-6 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-indigo-700">
-        Appoitment
-      </button>
-      <div className="flex items-start justify-evenly h-screen ">
-        <Appoitmnet />
-        <AppoitmentList />
+      <Navbar role={"reception"} />
+      <div className="flex items-start justify-evenly h-screen p-2">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <Appoitmnet />
+          <AppoitmentList />
+        </div>
       </div>
     </div>
   );
