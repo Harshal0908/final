@@ -37,6 +37,7 @@ const TableData = (props) => {
       ) {
         return val;
       }
+      return null;
     });
     console.log(tempData);
     setFilteredData(tempData);
@@ -133,6 +134,7 @@ const TableData = (props) => {
               ) {
                 return val;
               }
+              return null;
             })
             .map((user, i) => {
               return (
