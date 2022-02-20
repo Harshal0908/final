@@ -1,5 +1,6 @@
 # Bramha Ayurved
 
+https://bramha-ayurved.netlify.app/
 
 ### Netlify Status
 
