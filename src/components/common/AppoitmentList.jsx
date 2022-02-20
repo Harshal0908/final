@@ -1,22 +1,18 @@
 import React from "react";
 import { useState } from "react";
 import Search from "./table/Search";
-import TableData from "./table/TableData";
+import AppoitmentTableData from "./table/AppoitmentTableData";
+import data from "../../data/appoitmentdata.json";
 
 export default function AppoitmentList() {
   const [searchTerm, setSearchTerm] = useState("");
-  const header = [
-    { title: "id" },
-    { title: "name" },
-    { title: "number" },
-    { title: "date" },
-    { title: "time" },
-  ];
+  const header = ["id", "name", "number", "date", "time"];
   console.log(header);
   return (
     <div>
+      <h1 className="text-xl font-semibold text-left p-2 ">Appoitment List</h1>
       <Search setSearchTerm={setSearchTerm} />
-      <TableData searchTerm={searchTerm} title={header} />
+      <AppoitmentTableData searchTerm={searchTerm} title={header} data={data} />
     </div>
   );
 }

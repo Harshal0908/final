@@ -1,8 +1,8 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Appoitmnet() {
-  var [date] = useState(new Date());
+  var [date, setDate] = useState(new Date());
   const [data, setData] = useState({
     name: "",
     number: "",
@@ -16,6 +16,16 @@ export default function Appoitmnet() {
     setData(newdata);
     console.log(newdata);
   }
+
+  useEffect(() => {
+    let timeout = setTimeout(() => {
+      setDate(new Date());
+    }, 1000);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [date]);
 
   const submitButton = () => {
     alert(data.name);

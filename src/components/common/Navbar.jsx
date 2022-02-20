@@ -9,6 +9,7 @@ export default class Navbar extends Component {
       navbarOpen: false,
     };
   }
+
   render() {
     return (
       <div className="sticky top-0 z-20 ">
@@ -38,7 +39,7 @@ export default class Navbar extends Component {
               }
               id="example-navbar-danger"
             >
-              {this.props.role === "doctor" ? (
+              {window.location.href.includes("doctor") ? (
                 <ul className="flex flex-col md:flex-row list-none md:ml-auto">
                   <li className="nav-item">
                     <a
@@ -49,15 +50,17 @@ export default class Navbar extends Component {
                       <span className="ml-2">Patients</span>
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                      href="#pablo"
-                    >
-                      <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
-                      <span className="ml-2">Inventory</span>
-                    </a>
-                  </li>
+                  <Link to="/reception/inventory">
+                    <li className="nav-item">
+                      <a
+                        href="#pablo"
+                        className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                      >
+                        <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
+                        <span className="ml-2">Inventory</span>
+                      </a>
+                    </li>
+                  </Link>
                   <li className="nav-item">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
@@ -99,15 +102,17 @@ export default class Navbar extends Component {
                       <span className="ml-2">Share</span>
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                      href="#pablo"
-                    >
-                      <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
-                      <span className="ml-2">Inventory</span>
-                    </a>
-                  </li>
+                  <Link to="/reception/inventory">
+                    <li className="nav-item">
+                      <a
+                        href="#pablo"
+                        className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                      >
+                        <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
+                        <span className="ml-2">Inventory</span>
+                      </a>
+                    </li>
+                  </Link>
                   <li className="nav-item">
                     <Link to="/login">
                       <button
