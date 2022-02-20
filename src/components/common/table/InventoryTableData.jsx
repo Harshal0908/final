@@ -10,7 +10,7 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
   // const [data, setData] = useState(MockData);
 
   //order by which sorting is done
-  const [order, setOrder] = useState("ASC");
+  // const [order, setOrder] = useState("ASC");
   const [currentPage, setCurrentPage] = useState(1);
   const [filteredData, setFilteredData] = useState(data);
 
@@ -39,7 +39,7 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
     : 0;
 
   //total no of pages
-  const pages = _.range(1, pageCount + 1);
+  // const pages = _.range(1, pageCount + 1);
 
   //Pagination function to get data entries of specific page
   const pagination = (pageNo) => {
