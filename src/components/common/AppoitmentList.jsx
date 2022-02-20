@@ -5,12 +5,18 @@ import TableData from "./table/TableData";
 
 export default function AppoitmentList() {
   const [searchTerm, setSearchTerm] = useState("");
-  const title = ["id", "first_name", "last_name", "email"];
-
+  const header = [
+    { title: "id" },
+    { title: "name" },
+    { title: "number" },
+    { title: "date" },
+    { title: "time" },
+  ];
+  console.log(header);
   return (
     <div>
-      <Search setSearchTerm={setSearchTerm} title={title} />
-      <TableData searchTerm={searchTerm} />
+      <Search setSearchTerm={setSearchTerm} />
+      <TableData searchTerm={searchTerm} title={header} />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import MockData from "../data.json";
+import { usePagination, DOTS } from "./pagination/usePagination";
 
 //pagesize
 const pageSize = 10;
@@ -25,15 +26,15 @@ const TableData = (props) => {
       if (props.searchTerm === "") {
         return val;
       } else if (
-        val.first_name.toLowerCase().includes(props.searchTerm.toLowerCase())
+        val.name.toLowerCase().includes(props.searchTerm.toLowerCase())
       ) {
         return val;
       } else if (
-        val.last_name.toLowerCase().includes(props.searchTerm.toLowerCase())
+        val.number.toLowerCase().includes(props.searchTerm.toLowerCase())
       ) {
         return val;
       } else if (
-        val.email.toLowerCase().includes(props.searchTerm.toLowerCase())
+        val.date.toLowerCase().includes(props.searchTerm.toLowerCase())
       ) {
         return val;
       }
@@ -80,6 +81,18 @@ const TableData = (props) => {
     pages.map((page) => pagination(page));
     // pagination(currentPage);
   };
+  const totalCount = data.length;
+  const siblingCount = 1;
+  const paginationRange = usePagination({
+    currentPage,
+    totalCount,
+    siblingCount,
+    pageSize,
+  });
+  if (currentPage === 0 || paginationRange.length < 2) {
+    return null;
+  }
+  // let lastPage = paginationRange[paginationRange.length - 1];
 
   return (
     <div className="container">
@@ -90,26 +103,34 @@ const TableData = (props) => {
             <th
               className="px-4 py-3"
               onClick={() => {
-                sorting("first_name");
+                sorting("name");
               }}
             >
-              First Name
+              Name
             </th>
             <th
               className="px-4 py-3"
               onClick={() => {
-                sorting("last_name");
+                sorting("number");
               }}
             >
-              Last Name
+              Ph.Number
             </th>
             <th
               className="px-4 py-3"
               onClick={() => {
-                sorting("email");
+                sorting("date");
               }}
             >
-              Email
+              Date
+            </th>
+            <th
+              className="px-4 py-3"
+              onClick={() => {
+                sorting("time");
+              }}
+            >
+              Time
             </th>
           </tr>
         </thead>
@@ -119,19 +140,21 @@ const TableData = (props) => {
               if (props.searchTerm === "") {
                 return val;
               } else if (
-                val.first_name
+                val.name.toLowerCase().includes(props.searchTerm.toLowerCase())
+              ) {
+                return val;
+              } else if (
+                val.number
                   .toLowerCase()
                   .includes(props.searchTerm.toLowerCase())
               ) {
                 return val;
               } else if (
-                val.last_name
-                  .toLowerCase()
-                  .includes(props.searchTerm.toLowerCase())
+                val.date.toLowerCase().includes(props.searchTerm.toLowerCase())
               ) {
                 return val;
               } else if (
-                val.email.toLowerCase().includes(props.searchTerm.toLowerCase())
+                val.time.toLowerCase().includes(props.searchTerm.toLowerCase())
               ) {
                 return val;
               }
@@ -146,9 +169,7 @@ const TableData = (props) => {
                   <td className="px-4 py-3 border">
                     <div className="flex items-center text-sm">
                       <div>
-                        <p className="font-semibold text-black">
-                          {user.first_name}
-                        </p>
+                        <p className="font-semibold text-black">{user.name}</p>
                       </div>
                     </div>
                   </td>
@@ -156,7 +177,7 @@ const TableData = (props) => {
                     <div className="flex items-center text-sm">
                       <div>
                         <p className="font-semibold text-black">
-                          {user.last_name}
+                          {user.number}
                         </p>
                       </div>
                     </div>
@@ -165,7 +186,13 @@ const TableData = (props) => {
                   <td className="px-4 py-3 text-xs border">
                     <span className="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm">
                       {" "}
-                      {user.email}{" "}
+                      {user.date}{" "}
+                    </span>
+                  </td>
+                  <td className="px-4 py-3 text-xs border">
+                    <span className="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm">
+                      {" "}
+                      {user.time}{" "}
                     </span>
                   </td>
                 </tr>
@@ -185,16 +212,24 @@ const TableData = (props) => {
               <span className="mx-1">Prev</span>
             </p>
           </li>
-          {pages.map((page) => (
-            <li
-              onClick={() => pagination(page)}
-              className={`select-none cursor-pointer mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-400 hover:text-gray-200 rounded-lg ${
-                currentPage === page ? "bg-gray-700 text-gray-200" : "page-item"
-              }`}
-            >
-              <p className="font-bold">{page}</p>
-            </li>
-          ))}
+          {paginationRange.map((page) => {
+            if (page === DOTS) {
+              return <li className="pagination-item dots">&#8230;</li>;
+            }
+
+            return (
+              <li
+                onClick={() => pagination(page)}
+                className={`select-none cursor-pointer mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-400 hover:text-gray-200 rounded-lg ${
+                  currentPage === page
+                    ? "bg-gray-700 text-gray-200"
+                    : "page-item"
+                }`}
+              >
+                <p className="font-bold">{page}</p>
+              </li>
+            );
+          })}
 
           <li
             onClick={() =>
