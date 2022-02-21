@@ -87,8 +87,11 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
         <thead className="sticky">
           <tr className="w-full text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase ">
             {title.map((t) => {
-              return <th className="px-4 py-3 border border-gray-400">{t}</th>;
+              return <th className="px-4 py-3  ">{t}</th>;
             })}
+            <th scope="col" className="relative px-6 py-3">
+              <span className="sr-only">Edit</span>
+            </th>
           </tr>
         </thead>
         <tbody className="bg-white">
@@ -124,6 +127,11 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
                   <span className="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm">
                     {user.dealer_number}
                   </span>
+                </td>
+                <td className=" px-6 py-4 whitespace-nowrap text-right text-sm font-medium border">
+                  <p className="cursor-pointer text-indigo-600 hover:text-green-700">
+                    🖊 Edit
+                  </p>
                 </td>
               </tr>
             );
