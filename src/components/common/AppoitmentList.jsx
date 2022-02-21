@@ -3,6 +3,7 @@ import { useState } from "react";
 import Search from "./table/Search";
 import AppoitmentTableData from "./table/AppoitmentTableData";
 import data from "../../data/appoitmentdata.json";
+import Modal from "./Modal";
 
 export default function AppoitmentList() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -12,6 +13,7 @@ export default function AppoitmentList() {
     <div>
       <h1 className="text-xl font-semibold text-left p-2 ">Appoitment List</h1>
       <Search setSearchTerm={setSearchTerm} />
+      {window.location.href.includes("doctor") ? <Modal /> : <></>}
       <AppoitmentTableData searchTerm={searchTerm} title={header} data={data} />
     </div>
   );

@@ -31,7 +31,7 @@ export default function Appoitmnet() {
     alert(data.name);
   };
   return (
-    <div className="py-8">
+    <div className="pt-8">
       <div className="max-w-sm mx-auto">
         <h1 class="font-semibold text-gray-800">New Appoitment</h1>
         <form className="w-auto py-10">

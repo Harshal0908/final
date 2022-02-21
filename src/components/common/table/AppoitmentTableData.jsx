@@ -93,6 +93,10 @@ const AppoitmentTableData = ({ searchTerm, title, data }) => {
         </thead>
         <tbody className="bg-white">
           {paginatedData.map((user) => {
+            if (paginationRange.length === 0) {
+              return <div>No data Available</div>;
+            }
+
             return (
               <tr className="text-gray-700" key={user.id}>
                 <td className="px-4 py-3 text-xs font-semibold border">
