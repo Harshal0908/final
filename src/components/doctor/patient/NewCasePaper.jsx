@@ -9,6 +9,7 @@ export default class NewCasePaper extends Component {
         <h1 className="text-xl font-semibold text-center font-mono">
           New Case Paper
         </h1>
+
         <PersonalDetails />
       </Layout>
     );

@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["*", "./node_modules/flowbite/**/*.js"],
+  content: ["*"],
   theme: {
     extend: {},
   },

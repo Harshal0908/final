@@ -12,7 +12,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <div className="sticky top-0 z-20 ">
+      <div className="sticky top-0 z-[100] ">
         <nav className=" bg-white flex flex-wrap items-center justify-between px-2 py-3  mb-3">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
