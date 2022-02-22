@@ -1,22 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 export default function PersonalDetails() {
+  const [startDate, setStartDate] = useState(new Date());
+  const [birthDate, setBirthDate] = useState(null);
+
   return (
     <div className="flex justify-center items-center">
       <div className="block p-6 max-w-2xl bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <form>
           <div className="grid xl:grid-cols-2 xl:gap-6">
+            <div></div>
+            <div className="relative z-20 mb-6 w-full group">
+              <DatePicker
+                selected={startDate}
+                onChange={(date) => setStartDate(date)}
+                peekNextMonth
+                showMonthDropdown
+                showYearDropdown
+                isClearable
+                placeholderText="Date"
+                dropdownMode="select"
+                className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              />
+            </div>
+          </div>
+          <div className="grid xl:grid-cols-2 xl:gap-6">
             <div className="relative z-0 mb-6 w-full group">
               <input
                 type="text"
-                name="floating_first_name"
-                id="floating_first_name"
+                name="first_name"
+                id="first_name"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
               />
               <label
-                for="floating_first_name"
+                for="first_name"
                 className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 First name
@@ -25,14 +46,14 @@ export default function PersonalDetails() {
             <div className="relative z-0 mb-6 w-full group">
               <input
                 type="text"
-                name="floating_last_name"
-                id="floating_last_name"
+                name="last_name"
+                id="last_name"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
               />
               <label
-                for="floating_last_name"
+                for="last_name"
                 className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Last name
@@ -44,14 +65,14 @@ export default function PersonalDetails() {
               <input
                 type="tel"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                name="floating_phone"
-                id="floating_phone"
+                name="phone"
+                id="phone"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
               />
               <label
-                for="floating_phone"
+                for="phone"
                 className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Phone number
@@ -60,17 +81,48 @@ export default function PersonalDetails() {
             <div className="relative z-0 mb-6 w-full group">
               <input
                 type="text"
-                name="floating_company"
-                id="floating_company"
+                name="occupation"
+                id="occupation"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
               />
               <label
-                for="floating_company"
+                for="occupation"
                 className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Occupation
+              </label>
+            </div>
+          </div>
+          <div className="grid xl:grid-cols-2 xl:gap-6">
+            <div className="relative z-50 mb-6 w-full group">
+              <DatePicker
+                selected={birthDate}
+                onChange={(date) => setBirthDate(date)}
+                peekNextMonth
+                showMonthDropdown
+                showYearDropdown
+                isClearable
+                placeholderText="Date of Birth"
+                dropdownMode="select"
+                className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              />
+            </div>
+            <div className="relative z-0 mb-6 w-full group">
+              <input
+                type="text"
+                name="age"
+                id="age"
+                className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="age"
+                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >
+                Age
               </label>
             </div>
           </div>
@@ -78,13 +130,13 @@ export default function PersonalDetails() {
           <div className="relative z-0 mb-6 w-full group">
             <input
               type="email"
-              name="floating_email"
+              name="email"
               className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
               placeholder=" "
               required
             />
             <label
-              for="floating_email"
+              for="email"
               className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Email address
@@ -94,7 +146,7 @@ export default function PersonalDetails() {
           <div className="relative z-0 mb-6 w-full group">
             <label
               for="address"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+              className="block mb-2 text-sm text-gray-500 dark:text-gray-400"
             >
               Address
             </label>
