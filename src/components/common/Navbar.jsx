@@ -16,12 +16,17 @@ export default class Navbar extends Component {
         <nav className=" bg-white flex flex-wrap items-center justify-between px-2 py-3  mb-3">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
-              <a
-                className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black"
-                href="#pablo"
+              <Link
+                to={
+                  window.location.href.includes("doctor")
+                    ? "/doctor"
+                    : "/reception"
+                }
               >
-                Bramha Ayurvedic Clinic
-              </a>
+                <p className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black">
+                  Bramha Ayurvedic Clinic
+                </p>
+              </Link>
               <button
                 className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"
                 type="button"

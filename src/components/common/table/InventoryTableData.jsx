@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import { usePagination, DOTS } from "./pagination/usePagination";
+import EditData from "./EditData";
 
 //pagesize
 const pageSize = 10;
@@ -24,9 +25,7 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
     const tempData = data.filter(
       (val) =>
         val.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        val.medicine.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        val.stock.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        val.deal_number.toLowerCase().includes(searchTerm.toLowerCase())
+        val.medicine.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredData(tempData);
     setTotalCount(tempData.length);
@@ -78,8 +77,6 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
     pageSize,
   });
 
-  // let lastPage = paginationRange[paginationRange.length - 1];
-
   return (
     <div className="container">
       <table className="w-full font-mono">
@@ -130,7 +127,7 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
                 </td>
                 <td className=" px-6 py-4 whitespace-nowrap text-right text-sm font-medium border">
                   <p className="cursor-pointer text-indigo-600 hover:text-green-700">
-                    🖊 Edit
+                    <EditData header={title} medicineData={user} />
                   </p>
                 </td>
               </tr>
