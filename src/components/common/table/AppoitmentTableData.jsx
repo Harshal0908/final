@@ -23,6 +23,7 @@ const AppoitmentTableData = ({ searchTerm, title, data }) => {
   useEffect(() => {
     const tempData = data.filter(
       (val) =>
+        val.unique_id.toLowerCase().includes(searchTerm.toLowerCase()) ||
         val.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         val.number.toLowerCase().includes(searchTerm.toLowerCase()) ||
         val.date.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -100,7 +101,16 @@ const AppoitmentTableData = ({ searchTerm, title, data }) => {
             return (
               <tr className="text-gray-700" key={user.id}>
                 <td className="px-4 py-3 text-xs font-semibold border">
-                  {user.id}
+                  {user.no}
+                </td>
+                <td className="px-4 py-3 border">
+                  <div className="flex items-center text-sm">
+                    <div>
+                      <p className="font-semibold text-black">
+                        {user.unique_id}
+                      </p>
+                    </div>
+                  </div>
                 </td>
                 <td className="px-4 py-3 border">
                   <div className="flex items-center text-sm">
@@ -109,7 +119,7 @@ const AppoitmentTableData = ({ searchTerm, title, data }) => {
                     </div>
                   </div>
                 </td>
-                <td className="px-4 py-3 border">
+                <td className="px-2 py-3 border">
                   <div className="flex items-center text-sm">
                     <div>
                       <p className="font-semibold text-black">{user.number}</p>
@@ -122,8 +132,8 @@ const AppoitmentTableData = ({ searchTerm, title, data }) => {
                     {user.date}
                   </span>
                 </td>
-                <td className="px-4 py-3 text-xs border">
-                  <span className="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm">
+                <td className="px-2 py-3 text-xs border">
+                  <span className="py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-sm">
                     {user.time}
                   </span>
                 </td>

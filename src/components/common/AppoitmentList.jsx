@@ -7,7 +7,7 @@ import Modal from "./Modal";
 
 export default function AppoitmentList() {
   const [searchTerm, setSearchTerm] = useState("");
-  const header = ["id", "name", "number", "date", "time"];
+  const header = ["id", "unique_id", "name", "number", "date", "time"];
   console.log(header);
   return (
     <div>

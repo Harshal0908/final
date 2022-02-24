@@ -1,7 +1,8 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-import { FiEdit } from "react-icons/fi";
-export default function EditData({ header, medicineData }) {
+import { FiEdit, FiPlus } from "react-icons/fi";
+
+export default function EditData({ header, medicineData, operation }) {
   let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -20,12 +21,24 @@ export default function EditData({ header, medicineData }) {
   return (
     <>
       <div className="flex flex-wrap items-center justify-end p-2">
-        <p
-          onClick={openModal}
-          className="cursor-pointer text-indigo-600 hover:text-green-700 flex"
-        >
-          <FiEdit /> Edit
-        </p>
+        {operation === "edit" ? (
+          <p
+            onClick={openModal}
+            className="inline-flex cursor-pointer text-indigo-600 hover:text-green-700 "
+          >
+            <FiEdit /> Edit
+          </p>
+        ) : (
+          <button
+            type="button"
+            onClick={openModal}
+            className="px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md  hover:bg-opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          >
+            <div className="flex  items-center">
+              <FiPlus /> New Medicine
+            </div>
+          </button>
+        )}
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>

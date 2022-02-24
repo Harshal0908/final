@@ -81,16 +81,16 @@ export default class Navbar extends Component {
                     </a>
                   </li>
 
-                  <li className="nav-item">
-                    <Link to="/login">
+                  <Link to="/login" replace>
+                    <li className="nav-item">
                       <button
                         href="/login"
                         class="px-3 py-2  text-xs uppercase font-bold leading-snug text-black bg-white transition duration-150 ease-in-out  hover:bg-gray-200 rounded  "
                       >
                         LogOut
                       </button>
-                    </Link>
-                  </li>
+                    </li>
+                  </Link>
                 </ul>
               ) : (
                 <ul className="flex flex-col md:flex-row list-none md:ml-auto">
@@ -114,16 +114,16 @@ export default class Navbar extends Component {
                       </a>
                     </li>
                   </Link>
-                  <li className="nav-item">
-                    <Link to="/login">
+                  <Link to="/login" replace>
+                    <li className="nav-item">
                       <button
                         href="/login"
                         class="px-3 py-2  text-xs uppercase font-bold leading-snug text-black bg-white transition duration-150 ease-in-out  hover:bg-gray-200 rounded  "
                       >
                         LogOut
                       </button>
-                    </Link>
-                  </li>
+                    </li>
+                  </Link>
                 </ul>
               )}
             </div>

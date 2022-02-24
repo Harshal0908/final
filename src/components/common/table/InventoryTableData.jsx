@@ -127,7 +127,11 @@ const InventoryTableData = ({ searchTerm, title, data }) => {
                 </td>
                 <td className=" px-6 py-4 whitespace-nowrap text-right text-sm font-medium border">
                   <p className="cursor-pointer text-indigo-600 hover:text-green-700">
-                    <EditData header={title} medicineData={user} />
+                    <EditData
+                      header={title}
+                      medicineData={user}
+                      operation={"edit"}
+                    />
                   </p>
                 </td>
               </tr>
