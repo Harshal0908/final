@@ -54,7 +54,7 @@ export default class Navbar extends Component {
                       </p>
                     </li>
                   </Link>
-                  <Link to="/reception/inventory">
+                  <Link to="/doctor/inventory">
                     <li className="nav-item">
                       <p className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75">
                         <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
@@ -100,7 +100,7 @@ export default class Navbar extends Component {
                       href="#pablo"
                     >
                       <i className="fab fa-facebook-square text-md leading-md text-black opacity-75"></i>
-                      <span className="ml-2">Share</span>
+                      <span className="ml-2">Previous Appoitment</span>
                     </a>
                   </li>
                   <Link to="/reception/inventory">
