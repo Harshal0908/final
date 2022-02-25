@@ -1,8 +1,11 @@
 import React from "react";
 import { FiLogIn } from "react-icons/fi";
+import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-export default function Login() {
+export default function Login(props) {
+  let { role } = useParams();
+  console.log(role);
   return (
     <div className="flex justify-center items-center h-screen space-x-40">
       <form>

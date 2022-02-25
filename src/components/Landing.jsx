@@ -8,34 +8,39 @@ const data = [
 
 export default function Landing() {
   return (
-    <div className="flex justify-center items-center space-x-40">
-      <div className="flex items-center justify-center h-screen ">
+    <div className="flex justify-center items-center ">
+      <div className=" items-center justify-center h-screen py-20">
+        <div className="flex items-center justify-center py-10 ">
+          <p className="text-xl md:text-2xl font-sans font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black">
+            Bramha Ayurvedic Clinic
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2">
           {data.map((entry, i) => {
             return (
-              <div className="p-28">
-                <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 h-80 px-20">
-                  <div className="mb-3 w-32 h-32 rounded-full  mx-auto">
+              <div className="px-24 pb-10">
+                <div className="p-8 max-w h-auto bg-white font-semibold text-center rounded-3xl border shadow-lg">
+                  <div className="mb-3 max-w-60 max-h-32 rounded-full  mx-auto">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
                       className="bi bi-person"
-                      viewBox="0 0 16 16"
+                      viewBox="-2 0 20 20"
                     >
                       <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                     </svg>
                   </div>
                   <h1 className="text-lg text-gray-700"> {entry.name} </h1>
-                  <h3 className="text-sm text-gray-400 ">
+                  <h3 className="w-auto text-sm text-gray-400 ">
                     {" "}
                     {entry.role} Login{" "}
                   </h3>
-                  <Link to={entry.link}>
-                    <button className="inline-flex items-center bg-slate-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
+                  <Link to={{ pathname: entry.link, state: { role: "Hel" } }}>
+                    <button className="w-auto inline-flex items-center bg-slate-600 px-4 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5 "
-                        viewBox="0 0 20 20"
+                        viewBox="0 0 22 20"
                         fill="currentColor"
                         textAnchor="Login"
                       >
@@ -46,7 +51,7 @@ export default function Landing() {
                           textAnchor="Login"
                         />
                       </svg>
-                      <div className="px-2">Login</div>
+                      <div className="px-2 text-sm">Login</div>
                     </button>
                   </Link>
                 </div>

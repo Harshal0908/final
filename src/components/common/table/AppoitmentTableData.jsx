@@ -83,10 +83,10 @@ const AppoitmentTableData = ({ searchTerm, title, data }) => {
 
   return (
     <div className="container">
-      <table className="w-full font-mono">
+      <table className="w-auto font-mono">
         {console.log({ filteredData, paginatedData })}
         <thead className="sticky">
-          <tr className="w-full text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase ">
+          <tr className="w-auto text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase ">
             {title.map((t) => {
               return <th className="px-4 py-3 border border-gray-400">{t}</th>;
             })}
