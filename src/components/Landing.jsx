@@ -36,7 +36,7 @@ export default function Landing() {
                     {entry.role} Login{" "}
                   </h3>
                   <Link to={{ pathname: entry.link, state: { role: "Hel" } }}>
-                    <button className="w-auto inline-flex items-center bg-slate-600 px-4 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
+                    <button className="w-auto inline-flex items-center bg-slate-600 px-4 py-2 mt-6 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide hover:-translate-1 hover:scale-105 hover:bg-indigo-600 duration-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5 "

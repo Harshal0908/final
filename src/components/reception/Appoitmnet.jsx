@@ -1,5 +1,6 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 export default function Appoitmnet() {
   var [date, setDate] = useState(new Date());
@@ -17,24 +18,24 @@ export default function Appoitmnet() {
     console.log(newdata);
   }
 
-  useEffect(() => {
-    let timeout = setTimeout(() => {
-      setDate(new Date());
-    }, 1000);
+  // useEffect(() => {
+  //   let timeout = setTimeout(() => {
+  //     setDate(new Date());
+  //   }, 1000);
 
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, [date]);
+  //   return () => {
+  //     clearTimeout(timeout);
+  //   };
+  // }, [date]);
 
   const submitButton = () => {
     alert(data.name);
   };
   return (
-    <div className="pt-8">
+    <div className="pt-20">
       <div className="max-w-sm mx-auto">
         <h1 class="font-semibold text-gray-800">New Appoitment</h1>
-        <form className="w-auto py-10">
+        <form className="w-auto py-16">
           <div class="relative z-0 mb-6 w-full group">
             <input
               type="text"
@@ -73,11 +74,28 @@ export default function Appoitmnet() {
               Mobile Number
             </label>
           </div>
-          <div class="relative z-0 mb-6 w-full group">
+          {/* <div class="relative z-0 mb-6 w-full group">
             {date.toLocaleDateString()}
           </div>
           <div class="relative z-0 mb-6 w-full group">
             {date.toLocaleTimeString()}
+          </div> */}
+          <div className="relative z-10 mb-6 w-full group">
+            <DatePicker
+              selected={date}
+              onChange={(date) => setDate(date)}
+              // peekNextMonth
+              showMonthDropdown
+              showYearDropdown
+              placeholderText="Date"
+              dropdownMode="select"
+              showTimeSelect
+              timeFormat="HH:mm"
+              timeIntervals={15}
+              timeCaption="time"
+              dateFormat="MMMM d, yyyy    h:mm aa"
+              className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            />
           </div>
           <button
             onClick={submitButton}

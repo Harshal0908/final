@@ -62,15 +62,17 @@ export default class Navbar extends Component {
                       </p>
                     </li>
                   </Link>
-                  <li className="nav-item">
-                    <a
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                      href="#pablo"
-                    >
-                      <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
-                      <span className="ml-2">Billing</span>
-                    </a>
-                  </li>
+                  <Link to="/doctor/bill">
+                    <li className="nav-item">
+                      <a
+                        className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                        href="#pablo"
+                      >
+                        <i className="fab fa-twitter text-md leading-md text-black opacity-75"></i>
+                        <span className="ml-2">Billing</span>
+                      </a>
+                    </li>
+                  </Link>
                   <li className="nav-item">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
@@ -94,7 +96,7 @@ export default class Navbar extends Component {
                 </ul>
               ) : (
                 <ul className="flex flex-col md:flex-row list-none md:ml-auto">
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                       href="#pablo"
@@ -102,7 +104,7 @@ export default class Navbar extends Component {
                       <i className="fab fa-facebook-square text-md leading-md text-black opacity-75"></i>
                       <span className="ml-2">Previous Appoitment</span>
                     </a>
-                  </li>
+                  </li> */}
                   <Link to="/reception/inventory">
                     <li className="nav-item">
                       <a
