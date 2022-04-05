@@ -32,10 +32,10 @@ export default function Appoitmnet() {
     alert(data.name);
   };
   return (
-    <div className="pt-20">
+    <div>
       <div className="max-w-sm mx-auto">
         <h1 class="font-semibold text-gray-800">New Appoitment</h1>
-        <form className="w-auto py-16">
+        <form className="w-auto pt-16">
           <div class="relative z-0 mb-6 w-full group">
             <input
               type="text"

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const data = [
   { name: "Vitthal Shinde", role: "Doctor", link: "/login" },
-  { name: "Receptionist Name", role: "Receptionist", link: "/reception" },
+  { name: "Receptionist", role: "", link: "/reception" },
 ];
 
 export default function Landing() {
@@ -15,11 +15,11 @@ export default function Landing() {
             Bramha Ayurvedic Clinic
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="flex flex-col md:flex-row">
           {data.map((entry, i) => {
             return (
-              <div className="px-24 pb-10">
-                <div className="p-8 max-w h-auto bg-white font-semibold text-center rounded-3xl border shadow-lg">
+              <div className="px-20 pb-10">
+                <div className="p-10 max-w h-auto bg-white font-semibold text-center rounded-3xl border shadow-lg">
                   <div className="mb-3 max-w-60 max-h-32 rounded-full  mx-auto">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

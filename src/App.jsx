@@ -7,6 +7,7 @@ import ReceptionHome from "./components/reception/ReceptionHome";
 import Inventory from "./components/common/Inventory";
 import NewCasePaper from "./components/doctor/patient/NewCasePaper";
 import GenerateBill from "./components/bill/GenerateBill";
+import CasePaper from "./components/doctor/patient/CasePaper";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route exact path="/doctor" element={<DoctorHome />} />
         <Route exact path="/reception" element={<ReceptionHome />} />
         <Route exact path="/:role/inventory" element={<Inventory />} />
+        <Route exact path="/doctor/casepaper" element={<CasePaper />} />
         <Route exact path="/doctor/newpaper" element={<NewCasePaper />} />
         <Route exact path="/doctor/bill" element={<GenerateBill />} />
       </Routes>

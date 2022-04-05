@@ -11,14 +11,14 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function PersonalDetails() {
+export default function MedicalHistory() {
   const [startDate, setStartDate] = useState(new Date());
   const [birthDate, setBirthDate] = useState(null);
   const [drop1, setdrop1] = useState("वर्तमान व्याधी ");
   const [isExpanded, setExpanded] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
   return (
-    <div className="flex justify-center items-center p-4">
+    <div className="flex justify-center items-center">
       <div className="block p-4 max-w-2xl bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <div
           className="flex items-center justify-between w-96"
@@ -26,7 +26,7 @@ export default function PersonalDetails() {
             onClick: () => setExpanded((prevExpanded) => !prevExpanded),
           })}
         >
-          Personal Details {isExpanded ? <FiChevronUp /> : <FiChevronDown />}
+          Medical History {isExpanded ? <FiChevronUp /> : <FiChevronDown />}
         </div>
         <section {...getCollapseProps()}>
           <form>

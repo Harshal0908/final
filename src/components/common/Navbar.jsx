@@ -46,7 +46,7 @@ export default class Navbar extends Component {
             >
               {window.location.href.includes("doctor") ? (
                 <ul className="flex flex-col md:flex-row list-none md:ml-auto">
-                  <Link to="/doctor/newpaper">
+                  <Link to="/doctor/casepaper">
                     <li className="nav-item">
                       <p className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75">
                         <i className="fab fa-facebook-square text-md leading-md text-black opacity-75"></i>

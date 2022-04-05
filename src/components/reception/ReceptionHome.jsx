@@ -8,7 +8,9 @@ export default function ReceptionHome() {
     <Layout>
       <div className="flex items-start justify-evenly h-screen p-2">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <Appoitmnet />
+          <div className="pt-20">
+            <Appoitmnet />
+          </div>
           <AppoitmentList />
         </div>
       </div>
