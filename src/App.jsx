@@ -14,7 +14,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Landing />} />
-        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/:role/login" element={<Login />} />
         <Route exact path="/doctor" element={<DoctorHome />} />
         <Route exact path="/reception" element={<ReceptionHome />} />
         <Route exact path="/:role/inventory" element={<Inventory />} />

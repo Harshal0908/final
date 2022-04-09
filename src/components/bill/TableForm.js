@@ -22,7 +22,7 @@ export default function TableForm({
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!description || !quantity || !price) {
+    if (!description || !amount) {
       alert("Please fill in all inputs");
     } else {
       const newItems = {
@@ -44,7 +44,9 @@ export default function TableForm({
   // Calculate items amount function
   useEffect(() => {
     const calculateAmount = (amount) => {
-      setAmount(quantity * price);
+      if (price !== 0 && quantity !== 0) {
+        setAmount(quantity * price);
+      }
     };
 
     calculateAmount(amount);
@@ -64,18 +66,27 @@ export default function TableForm({
   });
 
   // Edit function
-  const editRow = (id) => {
+  const editRow = (id, amount) => {
     const editingRow = list.find((row) => row.id === id);
+    let sum = total;
+    sum -= amount;
+    setTotal(sum);
     setList(list.filter((row) => row.id !== id));
     setIsEditing(true);
     setDescription(editingRow.description);
     setQuantity(editingRow.quantity);
     setPrice(editingRow.price);
+    setAmount(editingRow.amount);
   };
 
   // Delete function
-  const deleteRow = (id) => setList(list.filter((row) => row.id !== id));
-
+  const deleteRow = (id, amount) => {
+    let sum = total;
+    sum -= amount;
+    setList(list.filter((row) => row.id !== id));
+    setTotal(sum);
+  };
+  // console.log(list);
   return (
     <>
       <form onSubmit={handleSubmit}>
@@ -92,7 +103,7 @@ export default function TableForm({
           />
         </div>
 
-        <div className="md:grid grid-cols-3 gap-10">
+        <div className="md:grid grid-cols-3 gap-10 py-2">
           <div className="flex flex-col">
             <label htmlFor="quantity">Quantity</label>
             <input
@@ -116,11 +127,39 @@ export default function TableForm({
               onChange={(e) => setPrice(e.target.value)}
             />
           </div>
-
           <div className="flex flex-col">
             <label htmlFor="amount">Amount</label>
-            <p>{amount}</p>
+            <input
+              type="text"
+              name="amount"
+              id="amount"
+              placeholder="Amount"
+              value={amount}
+              onChange={(e) => {
+                e.preventDefault();
+                setAmount(
+                  (price !== undefined && quantity !== undefined) ||
+                    (price !== 0 && quantity !== 0)
+                    ? price * quantity
+                    : e.target.value
+                );
+                // price !== 0 && quantity !== 0
+                //   ? setAmount(price * quantity)
+                //   : setAmount(e.target.value)
+              }}
+            />
           </div>
+          {/* <div className="flex flex-col">
+            <label htmlFor="amount">Amount</label>
+            <input
+              type="text"
+              name="amount"
+              id="amount"
+              placeholder="amount"
+              value={amount}
+              onChange={(e) => setAmount(e.target.value)}
+            />
+          </div> */}
         </div>
         <button
           type="submit"
@@ -150,12 +189,12 @@ export default function TableForm({
                 <td>{price}</td>
                 <td className="amount">{amount}</td>
                 <td>
-                  <button onClick={() => editRow(id)}>
+                  <button onClick={() => editRow(id, amount)}>
                     <AiOutlineEdit className="text-green-500 font-bold text-xl" />
                   </button>
                 </td>
                 <td>
-                  <button onClick={() => deleteRow(id)}>
+                  <button onClick={() => deleteRow(id, amount)}>
                     <AiOutlineDelete className="text-red-500 font-bold text-xl" />
                   </button>
                 </td>
