@@ -12,7 +12,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <div className="sticky top-0 z-[100] ">
+      <div className="sticky top-0 z-10 ">
         <nav className=" bg-white flex flex-wrap items-center justify-between px-2 py-3  mb-3">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
@@ -83,10 +83,10 @@ export default class Navbar extends Component {
                     </a>
                   </li>
 
-                  <Link to="/login" replace>
+                  <Link to="/" replace>
                     <li className="nav-item">
                       <button
-                        href="/login"
+                        href="/"
                         class="px-3 py-2  text-xs uppercase font-bold leading-snug text-black bg-white transition duration-150 ease-in-out  hover:bg-gray-200 rounded  "
                       >
                         LogOut
@@ -116,10 +116,10 @@ export default class Navbar extends Component {
                       </a>
                     </li>
                   </Link>
-                  <Link to="/login" replace>
+                  <Link to="/" replace>
                     <li className="nav-item">
                       <button
-                        href="/login"
+                        href="/"
                         class="px-3 py-2  text-xs uppercase font-bold leading-snug text-black bg-white transition duration-150 ease-in-out  hover:bg-gray-200 rounded  "
                       >
                         LogOut

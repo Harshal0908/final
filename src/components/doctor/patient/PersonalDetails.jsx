@@ -1,20 +1,21 @@
-import React, { useState, Fragment } from "react";
-import DatePicker from "react-datepicker";
+import React, { useState } from "react";
+// import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { Menu, Transition } from "@headlessui/react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import drop1Data from "./drop1.json";
+
 // import Collapsible from "react-collapsible";
 import useCollapse from "react-collapsed";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import { Dropdown } from "react-dropdown-now";
+import "react-dropdown-now/style.css";
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
 export default function PersonalDetails() {
-  const [startDate, setStartDate] = useState(new Date());
-  const [birthDate, setBirthDate] = useState(null);
-  const [drop1, setdrop1] = useState("वर्तमान व्याधी ");
+  // const [startDate, setStartDate] = useState(new Date());
+  // const [birthDate, setBirthDate] = useState(null);
+  const [drop1, setdrop1] = useState("");
   const [isExpanded, setExpanded] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
   return (
@@ -32,8 +33,22 @@ export default function PersonalDetails() {
           <form>
             <div className="grid xl:grid-cols-2 xl:gap-6">
               <div></div>
-              <div className="relative z-10 mb-6 w-full group">
-                <DatePicker
+              <div className="relative  mb-6 w-full group">
+                <input
+                  type="date"
+                  name="date"
+                  id="date"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  for="date"
+                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                  Today's Date
+                </label>
+                {/* <DatePicker
                   selected={startDate}
                   onChange={(date) => setStartDate(date)}
                   peekNextMonth
@@ -43,8 +58,8 @@ export default function PersonalDetails() {
                   isClearable
                   placeholderText="Date"
                   dropdownMode="select"
-                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                />
+                  className="block z-10 py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                /> */}
               </div>
             </div>
             <div className="grid xl:grid-cols-2 xl:gap-6">
@@ -117,8 +132,22 @@ export default function PersonalDetails() {
               </div>
             </div>
             <div className="grid xl:grid-cols-2 xl:gap-6">
-              <div className="relative z-10 mb-6 w-full group">
-                <DatePicker
+              <div className="relative  mb-6 w-full group">
+                <input
+                  type="date"
+                  name="birthDate"
+                  id="birthDate"
+                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  for="birthDate"
+                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >
+                  Birth Date
+                </label>
+                {/* <DatePicker
                   selected={birthDate}
                   onChange={(date) => setBirthDate(date)}
                   peekNextMonth
@@ -128,8 +157,8 @@ export default function PersonalDetails() {
                   isClearable
                   placeholderText="Date of Birth"
                   dropdownMode="select"
-                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                />
+                  className="block z-10 py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                /> */}
               </div>
               <div className="relative z-0 mb-6 w-full group">
                 <input
@@ -164,74 +193,21 @@ export default function PersonalDetails() {
                 Email address
               </label>
             </div>
-            <Menu as="div" className="relative inline-block text-left  pb-3 ">
-              <div>
-                <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
-                  {drop1}
-                  <FiChevronDown
-                    className="-mr-1 ml-2 h-5 w-5"
-                    aria-hidden="true"
-                  />
-                </Menu.Button>
+            <div className="grid xl:grid-cols-2 xl:gap-6">
+              <div className="relative mt-2 w-full group text-md">
+                वर्तमान व्याधी{" "}
               </div>
+              <div className="relative z-10 mb-2 w-full group">
+                <Dropdown
+                  placeholder="Select an option"
+                  options={drop1Data}
+                  value={drop1}
+                  onChange={(value) => setdrop1(value)}
+                  className="text-sm"
+                />
+              </div>
+            </div>
 
-              <Transition
-                as={Fragment}
-                enter="transition ease-out duration-100"
-                enterFrom="transform opacity-0 scale-95"
-                enterTo="transform opacity-100 scale-100"
-                leave="transition ease-in duration-75"
-                leaveFrom="transform opacity-100 scale-100"
-                leaveTo="transform opacity-0 scale-95"
-              >
-                <Menu.Items className=" z-30 origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                  <div className="py-1">
-                    {drop1Data.map((t) => {
-                      return (
-                        <Menu.Item onClick={() => setdrop1(t)}>
-                          {({ active }) => (
-                            <p
-                              className={classNames(
-                                active
-                                  ? "bg-gray-100 text-gray-900"
-                                  : "text-gray-700",
-                                "block px-4 py-2 text-sm bg-transparent cursor-pointer"
-                              )}
-                            >
-                              {t}
-                            </p>
-                          )}
-                        </Menu.Item>
-                      );
-                    })}
-
-                    {/* <form method="POST" action="#">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <button
-                          type="submit"
-                          className={classNames(
-                            active
-                              ? "bg-gray-100 text-gray-900"
-                              : "text-gray-700",
-                            "block w-full text-left px-4 py-2 text-sm"
-                          )}
-                        >
-                          Sign out
-                        </button>
-                      )}
-                    </Menu.Item>
-                  </form> */}
-                  </div>
-                </Menu.Items>
-              </Transition>
-            </Menu>
-            <button
-              onClick={() => setdrop1("वर्तमान व्याधी ")}
-              className="text-blue-400 px-2"
-            >
-              Clear
-            </button>
             <div className="relative z-0 mb-6 w-full group">
               <label
                 for="address"
