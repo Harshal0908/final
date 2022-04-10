@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-// import DatePicker from "react-datepicker";
+import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import drop1Data from "./drop1.json";
+import Select from "react-select";
 
 // import Collapsible from "react-collapsible";
 import useCollapse from "react-collapsed";
@@ -13,53 +14,45 @@ import "react-dropdown-now/style.css";
 // }
 
 export default function PersonalDetails() {
-  // const [startDate, setStartDate] = useState(new Date());
-  // const [birthDate, setBirthDate] = useState(null);
+  const [startDate, setStartDate] = useState(new Date());
+  const [birthDate, setBirthDate] = useState(null);
   const [drop1, setdrop1] = useState("");
   const [isExpanded, setExpanded] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+  const वैवाहिकजीवन = [
+    { value: "विवाहित ", label: "विवाहित " },
+    { value: "अविवाहित ", label: "अविवाहित " },
+  ];
   return (
-    <div className="flex justify-center items-center p-4">
-      <div className="block p-4 max-w-2xl bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <div className="flex justify-center items-center py-4 ">
+      <div className="block p-4 w-1/2 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <div
-          className="flex items-center justify-between w-96"
+          className="flex items-center justify-between "
           {...getToggleProps({
             onClick: () => setExpanded((prevExpanded) => !prevExpanded),
           })}
         >
           Personal Details {isExpanded ? <FiChevronUp /> : <FiChevronDown />}
         </div>
-        <section {...getCollapseProps()}>
+        <section {...getCollapseProps()} className="pt-2">
           <form>
             <div className="grid xl:grid-cols-2 xl:gap-6">
-              <div></div>
-              <div className="relative  mb-6 w-full group">
-                <input
-                  type="date"
-                  name="date"
-                  id="date"
-                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                  placeholder=" "
-                  required
-                />
-                <label
-                  for="date"
-                  className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
+              <div>
+                <div className="relative mt-2 w-full group text-md font-semibold">
                   Today's Date
-                </label>
-                {/* <DatePicker
+                </div>
+              </div>
+              <div className="relative  mb-6 w-full group">
+                <DatePicker
                   selected={startDate}
                   onChange={(date) => setStartDate(date)}
                   peekNextMonth
-                  showMonthDropdown
                   dateFormat="dd/MM/yyyy"
-                  showYearDropdown
                   isClearable
                   placeholderText="Date"
                   dropdownMode="select"
                   className="block z-10 py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                /> */}
+                />
               </div>
             </div>
             <div className="grid xl:grid-cols-2 xl:gap-6">
@@ -133,7 +126,7 @@ export default function PersonalDetails() {
             </div>
             <div className="grid xl:grid-cols-2 xl:gap-6">
               <div className="relative  mb-6 w-full group">
-                <input
+                {/* <input
                   type="date"
                   name="birthDate"
                   id="birthDate"
@@ -146,8 +139,8 @@ export default function PersonalDetails() {
                   className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Birth Date
-                </label>
-                {/* <DatePicker
+                </label> */}
+                <DatePicker
                   selected={birthDate}
                   onChange={(date) => setBirthDate(date)}
                   peekNextMonth
@@ -158,11 +151,11 @@ export default function PersonalDetails() {
                   placeholderText="Date of Birth"
                   dropdownMode="select"
                   className="block z-10 py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                /> */}
+                />
               </div>
               <div className="relative z-0 mb-6 w-full group">
                 <input
-                  type="text"
+                  type="number"
                   name="age"
                   id="age"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -195,7 +188,32 @@ export default function PersonalDetails() {
             </div>
             <div className="grid xl:grid-cols-2 xl:gap-6">
               <div className="relative mt-2 w-full group text-md">
-                वर्तमान व्याधी{" "}
+                वैवाहिक जीवन
+              </div>
+              <div className="relative  mb-6 w-full group">
+                <Select
+                  //   isMulti={true}
+                  options={वैवाहिकजीवन}
+                  className="z-20"
+                />
+              </div>
+            </div>
+            {/* <div className="grid xl:grid-cols-2 xl:gap-6">
+              <div className="relative mt-2 w-full group text-md">
+                वर्तमान व्याधी
+              </div>
+              <div className="relative  mb-6 w-full group">
+                <Select
+                  //   isMulti={true}
+                  options={वैवाहिकजीवन}
+                  className="overflow"
+                />
+              </div>
+            </div> */}
+            <div className="grid xl:grid-cols-2 xl:gap-6">
+              <div className="relative mt-2 w-full group text-md">
+                {" "}
+                वर्तमान व्याधी
               </div>
               <div className="relative z-10 mb-2 w-full group">
                 <Dropdown

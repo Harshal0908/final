@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Layout from "../../common/Layout";
-import DailyRoutine from "./DailyRoutine";
+import DailyRoutine1 from "./DailyRoutine1";
+import DailyRoutine2 from "./DailyRoutine2";
 import MedicalHistory from "./MedicalHistory";
 import PersonalDetails from "./PersonalDetails";
 
@@ -12,8 +13,9 @@ export default class NewCasePaper extends Component {
           New Case Paper
         </h1>
         <PersonalDetails />
-        <DailyRoutine />
         <MedicalHistory />
+        <DailyRoutine1 />
+        <DailyRoutine2 />
       </Layout>
     );
   }
