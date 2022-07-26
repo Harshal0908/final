@@ -1,0 +1,1752 @@
+[
+  {
+    "id": 1,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "Amlodipine Besylate",
+    "stock": 275,
+    "dealer_number": "+86 140 239 1731"
+  },
+  {
+    "id": 2,
+    "company": "Jafra Cosmetics International Inc",
+    "medicine": "Toast Always color stay-on Makeup Broad Spectrum SPF 15",
+    "stock": 14,
+    "dealer_number": "+86 720 416 1835"
+  },
+  {
+    "id": 3,
+    "company": "Ventura International, LTD",
+    "medicine": "LBEL EFFET PARFAIT Spots Reducing Effect Foundation SPF 18 - OBSCURE 8",
+    "stock": 467,
+    "dealer_number": "+48 131 545 4786"
+  },
+  {
+    "id": 4,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Virginia Live Oak",
+    "stock": 339,
+    "dealer_number": "+7 722 839 5600"
+  },
+  {
+    "id": 5,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Mugwort",
+    "stock": 160,
+    "dealer_number": "+66 258 784 5314"
+  },
+  {
+    "id": 6,
+    "company": "Allermed Laboratories, Inc.",
+    "medicine": "Sunflower Pollen",
+    "stock": 10,
+    "dealer_number": "+7 145 592 6017"
+  },
+  {
+    "id": 7,
+    "company": "Georgetown Health, LLC DBA EssentiaLife",
+    "medicine": "Ease Remedy Water",
+    "stock": 433,
+    "dealer_number": "+86 289 842 7844"
+  },
+  {
+    "id": 8,
+    "company": "Pfizer Laboratories Div Pfizer Inc.",
+    "medicine": "paclitaxel",
+    "stock": 297,
+    "dealer_number": "+63 595 461 1549"
+  },
+  {
+    "id": 9,
+    "company": "Mylan Pharmaceuticals Inc.",
+    "medicine": "Propranolol Hydrochloride",
+    "stock": 82,
+    "dealer_number": "+1 209 455 2067"
+  },
+  {
+    "id": 10,
+    "company": "Energique, Inc.",
+    "medicine": "Infectistat",
+    "stock": 372,
+    "dealer_number": "+502 469 911 6002"
+  },
+  {
+    "id": 11,
+    "company": "CVS Pharmacy",
+    "medicine": "CVS Pharmacy Daytime Severe Cough and Cold",
+    "stock": 205,
+    "dealer_number": "+994 672 930 6320"
+  },
+  {
+    "id": 12,
+    "company": "Bayer HealthCare LLC - Consumer Care",
+    "medicine": "Alka-Seltzer Plus",
+    "stock": 54,
+    "dealer_number": "+46 935 614 9041"
+  },
+  {
+    "id": 13,
+    "company": "Med-Health Pharma, LLC",
+    "medicine": "LEVOTHYROXINE SODIUM",
+    "stock": 115,
+    "dealer_number": "+7 485 268 5060"
+  },
+  {
+    "id": 14,
+    "company": "Sircle Laboratories, LLC",
+    "medicine": "Xylon 10",
+    "stock": 387,
+    "dealer_number": "+505 360 110 7645"
+  },
+  {
+    "id": 15,
+    "company": "Novartis Pharmaceuticals Corporation",
+    "medicine": "Lamisil",
+    "stock": 36,
+    "dealer_number": "+504 218 574 3917"
+  },
+  {
+    "id": 16,
+    "company": "Atley Pharmaceuticals, Inc.",
+    "medicine": "ORBIVAN",
+    "stock": 17,
+    "dealer_number": "+41 100 690 3874"
+  },
+  {
+    "id": 17,
+    "company": "YUYAO CHENGZE MEDICAL SUPPLIES FACTORY",
+    "medicine": "Alcohol Prep Pad",
+    "stock": 459,
+    "dealer_number": "+86 114 333 8795"
+  },
+  {
+    "id": 18,
+    "company": "Safeway",
+    "medicine": "Nicotine",
+    "stock": 31,
+    "dealer_number": "+86 640 183 7224"
+  },
+  {
+    "id": 19,
+    "company": "PD-Rx Pharmaceuticals, Inc.",
+    "medicine": "Levothyroxine Sodium",
+    "stock": 100,
+    "dealer_number": "+46 176 783 2522"
+  },
+  {
+    "id": 20,
+    "company": "ESTEE LAUDER INC",
+    "medicine": "ADVANCED TIME ZONE AGE REVERSING",
+    "stock": 30,
+    "dealer_number": "+353 103 383 4455"
+  },
+  {
+    "id": 21,
+    "company": "Golden State Medical Supply, Inc.",
+    "medicine": "Metformin Hydrochloride",
+    "stock": 6,
+    "dealer_number": "+86 529 476 1889"
+  },
+  {
+    "id": 22,
+    "company": "Direct RX",
+    "medicine": "Levofloxacin",
+    "stock": 288,
+    "dealer_number": "+86 350 692 1069"
+  },
+  {
+    "id": 23,
+    "company": "McNeil Consumer Healthcare Div. McNeil-PPC, Inc",
+    "medicine": "Childrens Sudafed PE",
+    "stock": 204,
+    "dealer_number": "+62 910 644 9883"
+  },
+  {
+    "id": 24,
+    "company": "Mangiacotti Floral LLC",
+    "medicine": "Lavender Waterless Hand Wash",
+    "stock": 24,
+    "dealer_number": "+254 520 491 0155"
+  },
+  {
+    "id": 25,
+    "company": "Rebel Distributors Corp",
+    "medicine": "Nefazodone Hydrochloride",
+    "stock": 272,
+    "dealer_number": "+252 998 486 3778"
+  },
+  {
+    "id": 26,
+    "company": "Physicians Total Care, Inc.",
+    "medicine": "Dicloxacillin Sodium",
+    "stock": 177,
+    "dealer_number": "+63 533 763 5443"
+  },
+  {
+    "id": 27,
+    "company": "LIBINVEST",
+    "medicine": "BIO BEAUTY BIO DEFENSE",
+    "stock": 26,
+    "dealer_number": "+7 481 888 9438"
+  },
+  {
+    "id": 28,
+    "company": "Ventura Corporation LTD",
+    "medicine": "CY BETTER LIPS BALM Humectante para Labios con color FPS 18",
+    "stock": 142,
+    "dealer_number": "+62 686 965 0195"
+  },
+  {
+    "id": 29,
+    "company": "HyVee Inc",
+    "medicine": "cold and flu",
+    "stock": 170,
+    "dealer_number": "+380 660 903 6725"
+  },
+  {
+    "id": 30,
+    "company": "DSHealthcare",
+    "medicine": "Moist SURE",
+    "stock": 59,
+    "dealer_number": "+358 926 750 8989"
+  },
+  {
+    "id": 31,
+    "company": "McKesson Packaging Services a business unit of McKesson Corporation",
+    "medicine": "Propafenone HCl",
+    "stock": 189,
+    "dealer_number": "+62 365 214 9715"
+  },
+  {
+    "id": 32,
+    "company": "Cardinal Health",
+    "medicine": "Theophylline",
+    "stock": 11,
+    "dealer_number": "+54 940 774 2821"
+  },
+  {
+    "id": 33,
+    "company": "Dolgencorp, LLC",
+    "medicine": "dg health arthritis pain relief",
+    "stock": 456,
+    "dealer_number": "+86 549 380 9596"
+  },
+  {
+    "id": 34,
+    "company": "BioActive Nutritional, Inc.",
+    "medicine": "Hayfever Tonic",
+    "stock": 484,
+    "dealer_number": "+86 754 727 7834"
+  },
+  {
+    "id": 35,
+    "company": "Preferred Pharmaceuticals, Inc.",
+    "medicine": "Alprazolam",
+    "stock": 256,
+    "dealer_number": "+86 692 741 2290"
+  },
+  {
+    "id": 36,
+    "company": "Hospira, Inc.",
+    "medicine": "Bupivacaine Hydrochloride",
+    "stock": 472,
+    "dealer_number": "+63 910 404 3477"
+  },
+  {
+    "id": 37,
+    "company": "Hysan Pharmaceutical Co Ltd",
+    "medicine": "Hua Tuo Huo Lu Oil",
+    "stock": 33,
+    "dealer_number": "+258 591 419 2637"
+  },
+  {
+    "id": 38,
+    "company": "Dolgencorp Inc",
+    "medicine": "DG Health Triple Antibiotic",
+    "stock": 304,
+    "dealer_number": "+358 823 521 4516"
+  },
+  {
+    "id": 39,
+    "company": "Major Pharmaceuticals",
+    "medicine": "Bisacodyl",
+    "stock": 128,
+    "dealer_number": "+51 263 305 1392"
+  },
+  {
+    "id": 40,
+    "company": "Amerisource Bergen",
+    "medicine": "good neighbor pharmacy ibuprofen pm",
+    "stock": 134,
+    "dealer_number": "+86 470 716 5913"
+  },
+  {
+    "id": 41,
+    "company": "CorePharma, LLC",
+    "medicine": "Dextroamphetamine saccharate, amphetamine aspartate monohydrate, dextroamphetamine sulfate and amphetamine sulfate",
+    "stock": 278,
+    "dealer_number": "+86 561 826 9277"
+  },
+  {
+    "id": 42,
+    "company": "Unifirst First Aid Corporation",
+    "medicine": "Medique Medi-Meclizine",
+    "stock": 414,
+    "dealer_number": "+86 586 640 8623"
+  },
+  {
+    "id": 43,
+    "company": "GlaxoSmithKline Consumer Healthcare LP",
+    "medicine": "Sominex",
+    "stock": 444,
+    "dealer_number": "+47 829 194 1704"
+  },
+  {
+    "id": 44,
+    "company": "Biologische Heilmittel Heel",
+    "medicine": "Traumeel X",
+    "stock": 123,
+    "dealer_number": "+46 311 808 1683"
+  },
+  {
+    "id": 45,
+    "company": "A-S Medication Solutions LLC",
+    "medicine": "ERY-TAB",
+    "stock": 350,
+    "dealer_number": "+53 590 477 5582"
+  },
+  {
+    "id": 46,
+    "company": "WOONSOCKET PRESCRIPTION CENTER,INCORPORATED",
+    "medicine": "Non Drowsy Cold and Cough PE",
+    "stock": 336,
+    "dealer_number": "+385 362 112 3886"
+  },
+  {
+    "id": 47,
+    "company": "Cardinal Health",
+    "medicine": "leader miconazole 1",
+    "stock": 265,
+    "dealer_number": "+86 810 364 0027"
+  },
+  {
+    "id": 48,
+    "company": "Roxane Laboratories, Inc",
+    "medicine": "Lithium Carbonate",
+    "stock": 204,
+    "dealer_number": "+1 718 193 8412"
+  },
+  {
+    "id": 49,
+    "company": "Rebel Distributors Corp",
+    "medicine": "Sulfacetamide Sodium and Prednisolone Sodium Phosphate",
+    "stock": 89,
+    "dealer_number": "+86 116 811 6339"
+  },
+  {
+    "id": 50,
+    "company": "Rebel Distributors Corp",
+    "medicine": "Childrens Silapap",
+    "stock": 391,
+    "dealer_number": "+86 936 202 9003"
+  },
+  {
+    "id": 51,
+    "company": "True Botanica, LLC",
+    "medicine": "Cuprum Metallicum",
+    "stock": 471,
+    "dealer_number": "+232 838 727 0544"
+  },
+  {
+    "id": 52,
+    "company": "Bausch & Lomb Incorporated",
+    "medicine": "CARTEOLOL HYDROCHLORIDE",
+    "stock": 218,
+    "dealer_number": "+856 252 384 3249"
+  },
+  {
+    "id": 53,
+    "company": "Glenmark Generics Inc., USA",
+    "medicine": "Mometasone Furoate",
+    "stock": 320,
+    "dealer_number": "+53 877 840 0039"
+  },
+  {
+    "id": 54,
+    "company": "Rebel Distributors Corp",
+    "medicine": "ZONISAMIDE",
+    "stock": 345,
+    "dealer_number": "+7 230 464 5811"
+  },
+  {
+    "id": 55,
+    "company": "RITE AID CORPORATION",
+    "medicine": "RITE AID RENEWAL",
+    "stock": 362,
+    "dealer_number": "+86 342 910 0886"
+  },
+  {
+    "id": 56,
+    "company": "Cardinal Health",
+    "medicine": "Sodium Chloride",
+    "stock": 202,
+    "dealer_number": "+86 426 993 1515"
+  },
+  {
+    "id": 57,
+    "company": "Artec Chemical Company Limited",
+    "medicine": "Beautos Antibacterial Hand Sanitizer Lemon",
+    "stock": 105,
+    "dealer_number": "+63 434 316 4245"
+  },
+  {
+    "id": 58,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "Lansoprazole",
+    "stock": 264,
+    "dealer_number": "+33 100 757 7697"
+  },
+  {
+    "id": 59,
+    "company": "King Import Warehouse",
+    "medicine": "Instant Hand Sanitizer Original With Aloe Vera And Vitamin E",
+    "stock": 432,
+    "dealer_number": "+86 450 947 1418"
+  },
+  {
+    "id": 60,
+    "company": "L'Oreal USA Products Inc",
+    "medicine": "La Roche Posay",
+    "stock": 39,
+    "dealer_number": "+7 303 886 9828"
+  },
+  {
+    "id": 61,
+    "company": "Insight Pharmaceuticals",
+    "medicine": "Monistat 3 Combination Pack",
+    "stock": 26,
+    "dealer_number": "+358 801 543 2002"
+  },
+  {
+    "id": 62,
+    "company": "NARS Cosmetics",
+    "medicine": "NARS PRO-PRIME LIGHT OPTIMIZING PRIMER",
+    "stock": 47,
+    "dealer_number": "+27 799 434 2690"
+  },
+  {
+    "id": 63,
+    "company": "Qualitest Pharmaceuticals",
+    "medicine": "Telmisartan and Hydrochlorothiazide",
+    "stock": 77,
+    "dealer_number": "+504 921 179 8860"
+  },
+  {
+    "id": 64,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "Ondansetron",
+    "stock": 401,
+    "dealer_number": "+66 170 625 5591"
+  },
+  {
+    "id": 65,
+    "company": "Two MP Investments, Inc. dba Respicare",
+    "medicine": "OXYGEN",
+    "stock": 95,
+    "dealer_number": "+62 205 478 0811"
+  },
+  {
+    "id": 66,
+    "company": "McKesson Packaging Services Business Unit of McKesson Corporation",
+    "medicine": "HYDROCODONE BITARTRATE AND ACETAMINOPHEN",
+    "stock": 5,
+    "dealer_number": "+57 457 101 0839"
+  },
+  {
+    "id": 67,
+    "company": "Aruba Aloe Balm NV",
+    "medicine": "Aruba Aloe Deodorant Men",
+    "stock": 113,
+    "dealer_number": "+63 327 828 7909"
+  },
+  {
+    "id": 68,
+    "company": "Patriot Pharmaceuticals, LLC",
+    "medicine": "TRAMADOL HYDROCHLORIDE",
+    "stock": 10,
+    "dealer_number": "+86 246 415 9129"
+  },
+  {
+    "id": 69,
+    "company": "GlaxoSmithKline Consumer Heathcare LP",
+    "medicine": "TUMS",
+    "stock": 433,
+    "dealer_number": "+49 382 510 2779"
+  },
+  {
+    "id": 70,
+    "company": "Home Sweet Homeopathics",
+    "medicine": "Weight Loss",
+    "stock": 117,
+    "dealer_number": "+86 459 844 0721"
+  },
+  {
+    "id": 71,
+    "company": "Sun Pharma Global FZE",
+    "medicine": "Cetirizine Hydrochloride",
+    "stock": 157,
+    "dealer_number": "+374 832 950 4171"
+  },
+  {
+    "id": 72,
+    "company": "Laboratoires Boiron",
+    "medicine": "Arnicare Procedure Recovery",
+    "stock": 486,
+    "dealer_number": "+7 296 225 3241"
+  },
+  {
+    "id": 73,
+    "company": "SHISEIDO AMERICA INC.",
+    "medicine": "SHISEIDO THE SKINCARE PROTECTIVE LIP CONDITIONER",
+    "stock": 139,
+    "dealer_number": "+93 141 497 6938"
+  },
+  {
+    "id": 74,
+    "company": "Physicians Total Care, Inc.",
+    "medicine": "Amoxicillin",
+    "stock": 55,
+    "dealer_number": "+86 457 474 8327"
+  },
+  {
+    "id": 75,
+    "company": "Novo Nordisk",
+    "medicine": "NovoSeven",
+    "stock": 251,
+    "dealer_number": "+30 210 164 1428"
+  },
+  {
+    "id": 76,
+    "company": "PharmaDerm a division of Fougera Pharmaceuticals Inc.",
+    "medicine": "TEMOVATE",
+    "stock": 64,
+    "dealer_number": "+63 115 126 3688"
+  },
+  {
+    "id": 77,
+    "company": "Lake Erie Medical DBA Quality Care Products LLC",
+    "medicine": "Cephalexin",
+    "stock": 225,
+    "dealer_number": "+27 350 938 8015"
+  },
+  {
+    "id": 78,
+    "company": "Kmart Corporation",
+    "medicine": "Antiseptic Mouth Rinse",
+    "stock": 385,
+    "dealer_number": "+64 227 627 9796"
+  },
+  {
+    "id": 79,
+    "company": "Teva Pharmaceuticals USA Inc",
+    "medicine": "Losartan Potassium and Hydrochlorothiazide",
+    "stock": 45,
+    "dealer_number": "+7 204 461 7931"
+  },
+  {
+    "id": 80,
+    "company": "L'Oreal USA Products Inc",
+    "medicine": "LOreal Paris Age Perfect Glow Renewal Day Moisturizer Broad Spectrum SPF 30 Sunscreen",
+    "stock": 454,
+    "dealer_number": "+7 423 235 5266"
+  },
+  {
+    "id": 81,
+    "company": "CARDINAL HEALTH",
+    "medicine": "Extra Strength Pain Reliever PM",
+    "stock": 25,
+    "dealer_number": "+242 439 178 6243"
+  },
+  {
+    "id": 82,
+    "company": "DAVA Pharmaceuticals Inc",
+    "medicine": "Cefprozil",
+    "stock": 485,
+    "dealer_number": "+63 123 788 6949"
+  },
+  {
+    "id": 83,
+    "company": "Upsher-Smith Laboratories, Inc.",
+    "medicine": "Potassium Chloride",
+    "stock": 348,
+    "dealer_number": "+7 858 772 2105"
+  },
+  {
+    "id": 84,
+    "company": "Sun Pharmaceutical Industries Limited",
+    "medicine": "Quinapril",
+    "stock": 422,
+    "dealer_number": "+62 989 157 1192"
+  },
+  {
+    "id": 85,
+    "company": "Cryo Weld Corporation",
+    "medicine": "NITROGEN",
+    "stock": 460,
+    "dealer_number": "+62 850 664 3262"
+  },
+  {
+    "id": 86,
+    "company": "Magna Pharmaceuticals",
+    "medicine": "Capacet",
+    "stock": 113,
+    "dealer_number": "+58 703 580 2643"
+  },
+  {
+    "id": 87,
+    "company": "Moore Medical LLC",
+    "medicine": "Instant Hand Sanitizer",
+    "stock": 211,
+    "dealer_number": "+63 723 143 9034"
+  },
+  {
+    "id": 88,
+    "company": "Sanofi Pasteur Inc.",
+    "medicine": "IPOL",
+    "stock": 414,
+    "dealer_number": "+86 635 250 4359"
+  },
+  {
+    "id": 89,
+    "company": "Watson Laboratories, Inc.",
+    "medicine": "Prednisone",
+    "stock": 348,
+    "dealer_number": "+595 993 751 2761"
+  },
+  {
+    "id": 90,
+    "company": "State of Florida DOH Central Pharmacy",
+    "medicine": "Hydrochlorothiazide",
+    "stock": 281,
+    "dealer_number": "+998 761 370 1687"
+  },
+  {
+    "id": 91,
+    "company": "Deseret Biologicals, Inc.",
+    "medicine": "Celeragesic",
+    "stock": 297,
+    "dealer_number": "+380 363 537 6553"
+  },
+  {
+    "id": 92,
+    "company": "Sam's West Inc",
+    "medicine": "simply right anti diarrheal",
+    "stock": 319,
+    "dealer_number": "+62 841 234 3249"
+  },
+  {
+    "id": 93,
+    "company": "Meijer Distribution Inc",
+    "medicine": "12 hour allergy d",
+    "stock": 488,
+    "dealer_number": "+63 907 464 8867"
+  },
+  {
+    "id": 94,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Canadian Blue Grass",
+    "stock": 159,
+    "dealer_number": "+62 736 588 5076"
+  },
+  {
+    "id": 95,
+    "company": "American Regent, Inc.",
+    "medicine": "Acetylcysteine",
+    "stock": 373,
+    "dealer_number": "+82 119 373 6617"
+  },
+  {
+    "id": 96,
+    "company": "Accra-Pac, Inc.",
+    "medicine": "Hawaiian Tropic Tanning Dry SPF 6",
+    "stock": 366,
+    "dealer_number": "+1 298 429 5462"
+  },
+  {
+    "id": 97,
+    "company": "Bristol-Myers Squibb Holdings Pharma, Ltd. Liability Company",
+    "medicine": "COUMADIN",
+    "stock": 238,
+    "dealer_number": "+1 312 418 6926"
+  },
+  {
+    "id": 98,
+    "company": "Greenstone LLC",
+    "medicine": "SERTRALINE HYDROCHLORIDE",
+    "stock": 465,
+    "dealer_number": "+970 416 958 3844"
+  },
+  {
+    "id": 99,
+    "company": "ALK-Abello, Inc.",
+    "medicine": "FAGUS GRANDIFOLIA POLLEN",
+    "stock": 178,
+    "dealer_number": "+48 641 558 5083"
+  },
+  {
+    "id": 100,
+    "company": "PD-Rx Pharmaceuticals, Inc.",
+    "medicine": "Hydroxyzine Pamoate",
+    "stock": 460,
+    "dealer_number": "+84 224 285 3235"
+  },
+  {
+    "id": 101,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "Nitrofurantoin Monohydrate/ Macrocrystalline",
+    "stock": 54,
+    "dealer_number": "+299 128 945 1193"
+  },
+  {
+    "id": 102,
+    "company": "Jubilant HollisterStier LLC",
+    "medicine": "Pollens - Weeds, Kochia scoparia",
+    "stock": 273,
+    "dealer_number": "+351 519 653 6345"
+  },
+  {
+    "id": 103,
+    "company": "APP Pharmaceuticals, LLC",
+    "medicine": "Tranexamic Acid",
+    "stock": 297,
+    "dealer_number": "+86 361 283 9008"
+  },
+  {
+    "id": 104,
+    "company": "Newton Laboratories, Inc.",
+    "medicine": "Sciatica - Back Care",
+    "stock": 64,
+    "dealer_number": "+48 348 574 6248"
+  },
+  {
+    "id": 105,
+    "company": "H.J. Harkins Company, Inc.",
+    "medicine": "BuPROPion Hydrochloride",
+    "stock": 426,
+    "dealer_number": "+86 354 341 7231"
+  },
+  {
+    "id": 106,
+    "company": "Hyland's",
+    "medicine": "Tiny Cold",
+    "stock": 117,
+    "dealer_number": "+62 285 955 3057"
+  },
+  {
+    "id": 107,
+    "company": "Physicians Total Care, Inc.",
+    "medicine": "Bystolic",
+    "stock": 487,
+    "dealer_number": "+359 908 993 3325"
+  },
+  {
+    "id": 108,
+    "company": "Dr. Reddy's Laboratories Limited",
+    "medicine": "ziprasidone hydrochloride",
+    "stock": 434,
+    "dealer_number": "+420 135 660 3184"
+  },
+  {
+    "id": 109,
+    "company": "TOO FACED COSMETICS",
+    "medicine": "Too Faced BB Creme Complete Coverage Make-Up",
+    "stock": 245,
+    "dealer_number": "+49 390 475 2375"
+  },
+  {
+    "id": 110,
+    "company": "JHP Pharmaceuticals, LLC",
+    "medicine": "ketamine hydrochloride",
+    "stock": 37,
+    "dealer_number": "+48 658 382 3797"
+  },
+  {
+    "id": 111,
+    "company": "Ranbaxy Laboratories Inc.",
+    "medicine": "Ximino",
+    "stock": 180,
+    "dealer_number": "+381 976 364 7788"
+  },
+  {
+    "id": 112,
+    "company": "Aplicare, Inc.",
+    "medicine": "Aplicare Povidone Iodine Swabstick",
+    "stock": 289,
+    "dealer_number": "+86 938 545 7352"
+  },
+  {
+    "id": 113,
+    "company": "NCS HealthCare of KY, Inc dba Vangard Labs",
+    "medicine": "Gabapentin",
+    "stock": 391,
+    "dealer_number": "+358 465 204 6331"
+  },
+  {
+    "id": 114,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Hazelnut",
+    "stock": 1,
+    "dealer_number": "+86 926 282 9403"
+  },
+  {
+    "id": 115,
+    "company": "Glenmark Generics Inc. USA",
+    "medicine": "Eszopiclone",
+    "stock": 100,
+    "dealer_number": "+351 416 461 4743"
+  },
+  {
+    "id": 116,
+    "company": "Apotex Corp.",
+    "medicine": "Risedronate Sodium",
+    "stock": 308,
+    "dealer_number": "+351 797 340 8920"
+  },
+  {
+    "id": 117,
+    "company": "MSD Consumer Care, Inc.",
+    "medicine": "Tinactin",
+    "stock": 86,
+    "dealer_number": "+57 647 230 7880"
+  },
+  {
+    "id": 118,
+    "company": "HyVee Inc",
+    "medicine": "Aspirin",
+    "stock": 28,
+    "dealer_number": "+93 524 549 7983"
+  },
+  {
+    "id": 119,
+    "company": "E.R. Squibb & Sons, L.L.C.",
+    "medicine": "DROXIA",
+    "stock": 170,
+    "dealer_number": "+33 514 379 3898"
+  },
+  {
+    "id": 120,
+    "company": "BluePoint Laboratories",
+    "medicine": "Escitalopram",
+    "stock": 144,
+    "dealer_number": "+7 643 469 2345"
+  },
+  {
+    "id": 121,
+    "company": "Merck Sharp & Dohme Corp.",
+    "medicine": "JUVISYNC",
+    "stock": 411,
+    "dealer_number": "+63 852 283 6607"
+  },
+  {
+    "id": 122,
+    "company": "Mylan Pharmaceuticals Inc.",
+    "medicine": "Meloxicam",
+    "stock": 191,
+    "dealer_number": "+93 651 368 0428"
+  },
+  {
+    "id": 123,
+    "company": "Preferred Pharmaceuticals, Inc",
+    "medicine": "Sumatriptan Succinate",
+    "stock": 369,
+    "dealer_number": "+55 213 223 1552"
+  },
+  {
+    "id": 124,
+    "company": "NorthStar RxLLC",
+    "medicine": "venlafaxine",
+    "stock": 477,
+    "dealer_number": "+52 370 790 0731"
+  },
+  {
+    "id": 125,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "Lisinopril",
+    "stock": 497,
+    "dealer_number": "+54 601 980 5498"
+  },
+  {
+    "id": 126,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Aureobasidium pullulans",
+    "stock": 312,
+    "dealer_number": "+351 937 373 9387"
+  },
+  {
+    "id": 127,
+    "company": "Ventura International Ltd. (San Juan, P.R)",
+    "medicine": "LBEL UV DEFENSE 365",
+    "stock": 142,
+    "dealer_number": "+86 180 753 9526"
+  },
+  {
+    "id": 128,
+    "company": "McKesson Packaging Services Business Unit of McKesson Corporation",
+    "medicine": "Diltiazem Hydrochloride",
+    "stock": 483,
+    "dealer_number": "+7 446 745 8894"
+  },
+  {
+    "id": 129,
+    "company": "Pure Source",
+    "medicine": "Cold Spot",
+    "stock": 377,
+    "dealer_number": "+420 324 737 4909"
+  },
+  {
+    "id": 130,
+    "company": "Cardinal Health",
+    "medicine": "nifedipine",
+    "stock": 168,
+    "dealer_number": "+1 515 914 5357"
+  },
+  {
+    "id": 131,
+    "company": "Sato Pharmaceutical Co., Ltd.",
+    "medicine": "Airmit Ace",
+    "stock": 229,
+    "dealer_number": "+46 409 163 8053"
+  },
+  {
+    "id": 132,
+    "company": "MSD Consumer Care, Inc.",
+    "medicine": "Coppertone Water BABIES",
+    "stock": 117,
+    "dealer_number": "+86 186 486 6251"
+  },
+  {
+    "id": 133,
+    "company": "WALGREEN CO.",
+    "medicine": "Womens Laxative",
+    "stock": 114,
+    "dealer_number": "+33 390 269 7377"
+  },
+  {
+    "id": 134,
+    "company": "NCS HealthCare of KY, Inc dba Vangard Labs",
+    "medicine": "Pravastatin Sodium",
+    "stock": 227,
+    "dealer_number": "+86 455 874 4844"
+  },
+  {
+    "id": 135,
+    "company": "West-ward Pharmaceutical Corp.",
+    "medicine": "Promethazine Hydrochloride",
+    "stock": 6,
+    "dealer_number": "+7 882 263 1356"
+  },
+  {
+    "id": 136,
+    "company": "BluePoint Laboratories",
+    "medicine": "Amlodipine Besylate and Benazepril Hydrochloride",
+    "stock": 261,
+    "dealer_number": "+420 495 392 5910"
+  },
+  {
+    "id": 137,
+    "company": "Wal-Mart Stores Inc",
+    "medicine": "Equate Tussin CF",
+    "stock": 129,
+    "dealer_number": "+62 357 662 5577"
+  },
+  {
+    "id": 138,
+    "company": "Midlothian Laboratories",
+    "medicine": "Doxycycline Hyclate",
+    "stock": 409,
+    "dealer_number": "+57 324 766 3237"
+  },
+  {
+    "id": 139,
+    "company": "Juvena Produits de Beaute GMBH",
+    "medicine": "La Prairie Switzerland",
+    "stock": 113,
+    "dealer_number": "+51 249 407 2671"
+  },
+  {
+    "id": 140,
+    "company": "Novartis Pharmaceuticals Corporation",
+    "medicine": "Focalin",
+    "stock": 493,
+    "dealer_number": "+976 739 392 7873"
+  },
+  {
+    "id": 141,
+    "company": "Takeda Pharmaceuticals America, Inc.",
+    "medicine": "CONTRAVE",
+    "stock": 278,
+    "dealer_number": "+62 414 661 9846"
+  },
+  {
+    "id": 142,
+    "company": "Cardinal Health",
+    "medicine": "Medicated Chest",
+    "stock": 434,
+    "dealer_number": "+63 467 831 5545"
+  },
+  {
+    "id": 143,
+    "company": "Winthrop U.S.",
+    "medicine": "Enoxaparin sodium",
+    "stock": 279,
+    "dealer_number": "+86 243 241 8555"
+  },
+  {
+    "id": 144,
+    "company": "Cardinal Health",
+    "medicine": "DEXAMETHASONE SODIUM PHOSPHATE",
+    "stock": 392,
+    "dealer_number": "+81 625 749 2910"
+  },
+  {
+    "id": 145,
+    "company": "Nash-Finch Company",
+    "medicine": "Milk of Magnesia Mint",
+    "stock": 225,
+    "dealer_number": "+62 316 440 2346"
+  },
+  {
+    "id": 146,
+    "company": "Physicians Total Care, Inc.",
+    "medicine": "Gentamicin Sulfate",
+    "stock": 369,
+    "dealer_number": "+86 723 892 1548"
+  },
+  {
+    "id": 147,
+    "company": "Mission Hills S.A de C.V",
+    "medicine": "Colgate Sensitive Pro Relief Whitening",
+    "stock": 30,
+    "dealer_number": "+1 502 363 3063"
+  },
+  {
+    "id": 148,
+    "company": "Deseret Biologicals, Inc.",
+    "medicine": "Female Stimulant",
+    "stock": 478,
+    "dealer_number": "+46 475 809 1687"
+  },
+  {
+    "id": 149,
+    "company": "Macleods Pharmaceuticals Limited",
+    "medicine": "Irbesartan and Hydrochlorothiazide",
+    "stock": 244,
+    "dealer_number": "+62 123 945 2091"
+  },
+  {
+    "id": 150,
+    "company": "ALK-Abello, Inc.",
+    "medicine": "PENICILLIUM CHRYSOGENUM VAR CHRYSOGENUM",
+    "stock": 49,
+    "dealer_number": "+94 471 101 4184"
+  },
+  {
+    "id": 151,
+    "company": "IVAX Pharmaceuticals, Inc.",
+    "medicine": "Ciprofloxacin",
+    "stock": 127,
+    "dealer_number": "+7 125 324 1010"
+  },
+  {
+    "id": 152,
+    "company": "Macleods Pharmaceuticals Limited",
+    "medicine": "RIVASTIGMINE TARTRATE",
+    "stock": 165,
+    "dealer_number": "+86 309 710 9836"
+  },
+  {
+    "id": 153,
+    "company": "McKesson Corporation Valu-Rite",
+    "medicine": "eye itch relief",
+    "stock": 469,
+    "dealer_number": "+62 439 566 0461"
+  },
+  {
+    "id": 154,
+    "company": "Cardinal Health",
+    "medicine": "Ofirmev",
+    "stock": 26,
+    "dealer_number": "+420 816 179 9179"
+  },
+  {
+    "id": 155,
+    "company": "Kroger Company",
+    "medicine": "Cold Remedy",
+    "stock": 90,
+    "dealer_number": "+62 701 795 6929"
+  },
+  {
+    "id": 156,
+    "company": "Pharmacia and Upjohn Company",
+    "medicine": "Bacitracin",
+    "stock": 192,
+    "dealer_number": "+381 752 396 3303"
+  },
+  {
+    "id": 157,
+    "company": "GlaxoSmithKline Consumer Healthcare LP",
+    "medicine": "NICORETTE",
+    "stock": 184,
+    "dealer_number": "+55 137 193 1786"
+  },
+  {
+    "id": 158,
+    "company": "Synergy Formulas, Inc.",
+    "medicine": "Adrenal Tincture",
+    "stock": 148,
+    "dealer_number": "+58 672 846 2957"
+  },
+  {
+    "id": 159,
+    "company": "Liddell Laboratories, Inc.",
+    "medicine": "Tension Headache",
+    "stock": 232,
+    "dealer_number": "+86 585 725 4009"
+  },
+  {
+    "id": 160,
+    "company": "Pfizer Laboratories Div Pfizer Inc",
+    "medicine": "Vecuronium Bromide",
+    "stock": 386,
+    "dealer_number": "+48 522 223 9674"
+  },
+  {
+    "id": 161,
+    "company": "Jazz Pharmaceuticals, Inc.",
+    "medicine": "Parcopa",
+    "stock": 197,
+    "dealer_number": "+46 807 102 2413"
+  },
+  {
+    "id": 162,
+    "company": "GOJO Industries, Inc.",
+    "medicine": "PROVON Antibacterial Foam Handwash",
+    "stock": 87,
+    "dealer_number": "+63 825 788 4622"
+  },
+  {
+    "id": 163,
+    "company": "Welding & Therapy Service Inc.",
+    "medicine": "Nitrogen",
+    "stock": 92,
+    "dealer_number": "+62 473 403 4807"
+  },
+  {
+    "id": 164,
+    "company": "E. Fougera & Co., a division of Fougera Pharmaceuticals Inc.",
+    "medicine": "Prednicarbate",
+    "stock": 455,
+    "dealer_number": "+81 344 677 6632"
+  },
+  {
+    "id": 165,
+    "company": "Bedford Laboratories",
+    "medicine": "Octreotide Acetate",
+    "stock": 152,
+    "dealer_number": "+27 716 689 5068"
+  },
+  {
+    "id": 166,
+    "company": "Dispensing Solutions, Inc.",
+    "medicine": "Olanzapine",
+    "stock": 400,
+    "dealer_number": "+420 162 669 8821"
+  },
+  {
+    "id": 167,
+    "company": "RiteAid",
+    "medicine": "PETROLATUM and LANOLIN",
+    "stock": 420,
+    "dealer_number": "+380 346 410 6499"
+  },
+  {
+    "id": 168,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Burweed Marsh Elder",
+    "stock": 467,
+    "dealer_number": "+62 578 877 8028"
+  },
+  {
+    "id": 169,
+    "company": "NSE Products, Inc.",
+    "medicine": "Nu Skin Nu Colour",
+    "stock": 441,
+    "dealer_number": "+1 884 652 6840"
+  },
+  {
+    "id": 170,
+    "company": "NATURE REPUBLIC CO., LTD.",
+    "medicine": "HAND AND NATURE SANITIZER",
+    "stock": 126,
+    "dealer_number": "+7 640 644 3477"
+  },
+  {
+    "id": 171,
+    "company": "L. Perrigo Company",
+    "medicine": "Good Sense pain and fever",
+    "stock": 4,
+    "dealer_number": "+420 228 276 7719"
+  },
+  {
+    "id": 172,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Wheat Smut",
+    "stock": 433,
+    "dealer_number": "+62 783 698 9914"
+  },
+  {
+    "id": 173,
+    "company": "Rebel Distributors Corp",
+    "medicine": "Simvastatin",
+    "stock": 414,
+    "dealer_number": "+86 526 162 1743"
+  },
+  {
+    "id": 174,
+    "company": "Carolina Medical Products Company",
+    "medicine": "Triamcinolone Acetonide",
+    "stock": 393,
+    "dealer_number": "+48 422 705 8406"
+  },
+  {
+    "id": 175,
+    "company": "Watson Laboratories, Inc.",
+    "medicine": "Fentanyl - NOVAPLUS",
+    "stock": 128,
+    "dealer_number": "+57 337 426 8620"
+  },
+  {
+    "id": 176,
+    "company": "Homeocare Laboratories",
+    "medicine": "IBS Irritable Bowel Syndrome Relief",
+    "stock": 471,
+    "dealer_number": "+55 777 567 6801"
+  },
+  {
+    "id": 177,
+    "company": "Baxter Healthcare Corporation",
+    "medicine": "Glycine",
+    "stock": 444,
+    "dealer_number": "+7 777 618 5859"
+  },
+  {
+    "id": 178,
+    "company": "Peaceful Mountain, Inc.",
+    "medicine": "Eczema Rescue",
+    "stock": 172,
+    "dealer_number": "+7 866 672 3353"
+  },
+  {
+    "id": 179,
+    "company": "Philosophy, Inc.",
+    "medicine": "Hope In A Bottle",
+    "stock": 272,
+    "dealer_number": "+420 182 708 6805"
+  },
+  {
+    "id": 180,
+    "company": "Aidarex Pharmaceuticals LLC",
+    "medicine": "Alendronate Sodium",
+    "stock": 256,
+    "dealer_number": "+98 180 597 3093"
+  },
+  {
+    "id": 181,
+    "company": "Access Business Group LLC",
+    "medicine": "Formu Care pain reliever",
+    "stock": 146,
+    "dealer_number": "+506 190 808 8883"
+  },
+  {
+    "id": 182,
+    "company": "Fercy Personal Care Products Co Limited",
+    "medicine": "HAND SANITIZER",
+    "stock": 274,
+    "dealer_number": "+62 725 822 0986"
+  },
+  {
+    "id": 183,
+    "company": "CVS Pharmacy",
+    "medicine": "CVS Pharmacy Premium Wash",
+    "stock": 95,
+    "dealer_number": "+33 277 171 2810"
+  },
+  {
+    "id": 184,
+    "company": "Physicians Total Care, Inc.",
+    "medicine": "Acyclovir",
+    "stock": 31,
+    "dealer_number": "+237 630 214 4031"
+  },
+  {
+    "id": 185,
+    "company": "Proficient Rx LP",
+    "medicine": "Diazepam",
+    "stock": 64,
+    "dealer_number": "+62 950 915 0191"
+  },
+  {
+    "id": 186,
+    "company": "Lil' Drug Store Products, Inc",
+    "medicine": "Cold and Flu Daytime",
+    "stock": 390,
+    "dealer_number": "+86 465 868 0092"
+  },
+  {
+    "id": 187,
+    "company": "Wal-Mart Stores Inc",
+    "medicine": "equate clear lax",
+    "stock": 230,
+    "dealer_number": "+62 799 403 8044"
+  },
+  {
+    "id": 188,
+    "company": "CVS Pharmacy",
+    "medicine": "stomach relief",
+    "stock": 276,
+    "dealer_number": "+46 773 670 7832"
+  },
+  {
+    "id": 189,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "Doxycycline",
+    "stock": 80,
+    "dealer_number": "+63 613 429 9286"
+  },
+  {
+    "id": 190,
+    "company": "County Line Pharmaceuticals, LLC",
+    "medicine": "Methenamine Hippurate",
+    "stock": 313,
+    "dealer_number": "+86 153 283 0327"
+  },
+  {
+    "id": 191,
+    "company": "Laboratoires Clarins S.A.",
+    "medicine": "CLARINS UV PLUS HP Broad Spectrum SPF 40 Sunscreen Multi-Protection Tint DEEP",
+    "stock": 41,
+    "dealer_number": "+351 715 276 1417"
+  },
+  {
+    "id": 192,
+    "company": "Hospira, Inc.",
+    "medicine": "Aminosyn Sulfite Free",
+    "stock": 96,
+    "dealer_number": "+374 300 285 1011"
+  },
+  {
+    "id": 193,
+    "company": "Topco Associates LLC",
+    "medicine": "topcare nite time",
+    "stock": 27,
+    "dealer_number": "+351 301 512 5865"
+  },
+  {
+    "id": 194,
+    "company": "CVS Pharmacy",
+    "medicine": "nicotine",
+    "stock": 40,
+    "dealer_number": "+242 699 453 6683"
+  },
+  {
+    "id": 195,
+    "company": "Rebel Distributors Corp",
+    "medicine": "Methyldopa",
+    "stock": 160,
+    "dealer_number": "+62 791 323 8828"
+  },
+  {
+    "id": 196,
+    "company": "Neutrogena Corporation",
+    "medicine": "Neutrogena Skin Clearing",
+    "stock": 178,
+    "dealer_number": "+81 153 626 2013"
+  },
+  {
+    "id": 197,
+    "company": "Preferred Pharmaceuticals, Inc.",
+    "medicine": "Clobetasol Propionate",
+    "stock": 44,
+    "dealer_number": "+62 340 294 7271"
+  },
+  {
+    "id": 198,
+    "company": "Topco Associates LLC",
+    "medicine": "TopCare Acid Reducer",
+    "stock": 486,
+    "dealer_number": "+256 770 668 5829"
+  },
+  {
+    "id": 199,
+    "company": "Konsyl Pharmaceuticals, Inc.",
+    "medicine": "KONSYL Daily Therapy Fiber",
+    "stock": 94,
+    "dealer_number": "+86 818 749 7239"
+  },
+  {
+    "id": 200,
+    "company": "CVS PHARMACY",
+    "medicine": "CVS PHARMACY",
+    "stock": 418,
+    "dealer_number": "+1 973 580 9276"
+  },
+  {
+    "id": 201,
+    "company": "Xiamen Anna Global Co., Ltd",
+    "medicine": "Friuts and Flowers Grapefruit Waterless Hand Sanitizer",
+    "stock": 166,
+    "dealer_number": "+30 233 595 8333"
+  },
+  {
+    "id": 202,
+    "company": "Unit Dose Services",
+    "medicine": "Cymbalta",
+    "stock": 397,
+    "dealer_number": "+380 669 971 4483"
+  },
+  {
+    "id": 203,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "GLIPIZIDE",
+    "stock": 392,
+    "dealer_number": "+86 539 192 9411"
+  },
+  {
+    "id": 204,
+    "company": "Sandoz Inc",
+    "medicine": "Ampicillin",
+    "stock": 299,
+    "dealer_number": "+86 351 680 7247"
+  },
+  {
+    "id": 205,
+    "company": "PD-Rx Pharmaceuticals, Inc.",
+    "medicine": "Amlodipine Besylate and Benazepril Hydrochloride",
+    "stock": 162,
+    "dealer_number": "+63 486 861 5095"
+  },
+  {
+    "id": 206,
+    "company": "Glytone",
+    "medicine": "Glytone acne treatment facial cleanser",
+    "stock": 311,
+    "dealer_number": "+48 580 351 4393"
+  },
+  {
+    "id": 207,
+    "company": "Dispensing Solutions, Inc.",
+    "medicine": "Laxacin",
+    "stock": 459,
+    "dealer_number": "+420 888 115 4466"
+  },
+  {
+    "id": 208,
+    "company": "PD-Rx Pharmaceuticals, Inc.",
+    "medicine": "LAMOTRIGINE",
+    "stock": 276,
+    "dealer_number": "+48 566 495 8510"
+  },
+  {
+    "id": 209,
+    "company": "VistaPharm, Inc.",
+    "medicine": "Methadone Hydrochloride",
+    "stock": 331,
+    "dealer_number": "+30 561 756 8953"
+  },
+  {
+    "id": 210,
+    "company": "Apace Packaging",
+    "medicine": "Enalapril Maleate",
+    "stock": 442,
+    "dealer_number": "+7 337 745 0232"
+  },
+  {
+    "id": 211,
+    "company": "China Ningbo Shangge Cosmetic Technology Corp.",
+    "medicine": "XtraCare with cooling action Oatmeal Skin Relief Calmin",
+    "stock": 381,
+    "dealer_number": "+52 400 359 5976"
+  },
+  {
+    "id": 212,
+    "company": "Bonne Bell LLC",
+    "medicine": "Mickey Sun Smacker SPF 24 Classic Vanilla",
+    "stock": 344,
+    "dealer_number": "+33 787 313 3946"
+  },
+  {
+    "id": 213,
+    "company": "NATURE REPUBLIC CO., LTD.",
+    "medicine": "SOOTHING AND MOISTURE ALOE VERA 90 PERCENT TONER",
+    "stock": 334,
+    "dealer_number": "+20 550 331 7856"
+  },
+  {
+    "id": 214,
+    "company": "State of Florida DOH Central Pharmacy",
+    "medicine": "Glipizide",
+    "stock": 423,
+    "dealer_number": "+33 571 782 3787"
+  },
+  {
+    "id": 215,
+    "company": "Washington Homeopathic Products",
+    "medicine": "Mercurius Corr Kit Refill",
+    "stock": 418,
+    "dealer_number": "+234 476 678 4310"
+  },
+  {
+    "id": 216,
+    "company": "Eagle Distributors,Inc.",
+    "medicine": "ConRX Pain Reliever Sinus Headache",
+    "stock": 292,
+    "dealer_number": "+60 549 820 1512"
+  },
+  {
+    "id": 217,
+    "company": "Janssen Pharmaceuticals, Inc.",
+    "medicine": "RISPERDAL",
+    "stock": 387,
+    "dealer_number": "+46 274 301 9593"
+  },
+  {
+    "id": 218,
+    "company": "Moreand Co., Ltd.",
+    "medicine": "MoReturn Hair",
+    "stock": 315,
+    "dealer_number": "+55 809 497 5107"
+  },
+  {
+    "id": 219,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "SSD Cream",
+    "stock": 49,
+    "dealer_number": "+504 839 867 1661"
+  },
+  {
+    "id": 220,
+    "company": "Bare Escentuals Beauty, Inc.",
+    "medicine": "bareMinerals 5-in-1 BB Advanced Performance Eyeshadow Broad Spectrum SPF 15",
+    "stock": 311,
+    "dealer_number": "+86 868 636 3966"
+  },
+  {
+    "id": 221,
+    "company": "Wakefern Food Corp",
+    "medicine": "Calamine",
+    "stock": 344,
+    "dealer_number": "+86 523 746 8719"
+  },
+  {
+    "id": 222,
+    "company": "Novartis Consumer Health, Inc.",
+    "medicine": "Excedrin",
+    "stock": 44,
+    "dealer_number": "+86 479 471 6050"
+  },
+  {
+    "id": 223,
+    "company": "Bryant Ranch Prepack",
+    "medicine": "Depakote",
+    "stock": 103,
+    "dealer_number": "+60 652 325 6410"
+  },
+  {
+    "id": 224,
+    "company": "Mary Kay Inc.",
+    "medicine": "Timewise Day Solution sunscreen SPF 35 14ml",
+    "stock": 429,
+    "dealer_number": "+55 804 647 3070"
+  },
+  {
+    "id": 225,
+    "company": "Liddell Laboratories, Inc.",
+    "medicine": "HGH",
+    "stock": 209,
+    "dealer_number": "+48 809 329 7643"
+  },
+  {
+    "id": 226,
+    "company": "Reckitt Benckiser",
+    "medicine": "Childrens Mucinex",
+    "stock": 434,
+    "dealer_number": "+7 923 545 3873"
+  },
+  {
+    "id": 227,
+    "company": "Cardinal Health",
+    "medicine": "Nephrocaps",
+    "stock": 309,
+    "dealer_number": "+31 240 961 4975"
+  },
+  {
+    "id": 228,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Bayberry",
+    "stock": 265,
+    "dealer_number": "+7 895 308 2230"
+  },
+  {
+    "id": 229,
+    "company": "AvKARE, Inc.",
+    "medicine": "Fluocinolone Acetonide",
+    "stock": 371,
+    "dealer_number": "+58 453 473 6611"
+  },
+  {
+    "id": 230,
+    "company": "Dr. Reddy's Laboratories Inc",
+    "medicine": "amoxicillin and clavulanate potassium",
+    "stock": 238,
+    "dealer_number": "+86 916 195 2194"
+  },
+  {
+    "id": 231,
+    "company": "Aphena Pharma Solutions - Tennessee, LLC",
+    "medicine": "Metoprolol Succinate",
+    "stock": 458,
+    "dealer_number": "+254 478 490 1686"
+  },
+  {
+    "id": 232,
+    "company": "AvPAK",
+    "medicine": "Nifedipine",
+    "stock": 104,
+    "dealer_number": "+86 813 617 8694"
+  },
+  {
+    "id": 233,
+    "company": "Rouses Point Pharm",
+    "medicine": "Hydrocortisone Butyrate",
+    "stock": 386,
+    "dealer_number": "+1 415 935 6363"
+  },
+  {
+    "id": 234,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "Karaya Gum",
+    "stock": 338,
+    "dealer_number": "+86 755 890 5142"
+  },
+  {
+    "id": 235,
+    "company": "Bayer HealthCare LLC, Consumer Care",
+    "medicine": "Aleve",
+    "stock": 251,
+    "dealer_number": "+7 314 159 6174"
+  },
+  {
+    "id": 236,
+    "company": "TRUE Cosmetics LLC",
+    "medicine": "BEING TRUE ESSENTIALS ABSOLUTELY RADIANT",
+    "stock": 491,
+    "dealer_number": "+81 891 347 5852"
+  },
+  {
+    "id": 237,
+    "company": "REMEDYREPACK INC.",
+    "medicine": "Clopidogrel bisulfate",
+    "stock": 157,
+    "dealer_number": "+55 721 324 6772"
+  },
+  {
+    "id": 238,
+    "company": "Nelco Laboratories, Inc.",
+    "medicine": "West Wheat Grass",
+    "stock": 327,
+    "dealer_number": "+62 734 236 4153"
+  },
+  {
+    "id": 239,
+    "company": "Seton Pharmaceuticals",
+    "medicine": "Multi Vitamin Drops with Fluoride and Iron",
+    "stock": 299,
+    "dealer_number": "+967 929 239 2103"
+  },
+  {
+    "id": 240,
+    "company": "Cardinal Health",
+    "medicine": "Lidocaine Hydrochloride and Epinephrine",
+    "stock": 112,
+    "dealer_number": "+507 112 374 1049"
+  },
+  {
+    "id": 241,
+    "company": "Lake Erie Medical DBA Quality Care Products LLC",
+    "medicine": "Crestor",
+    "stock": 269,
+    "dealer_number": "+995 593 369 1600"
+  },
+  {
+    "id": 242,
+    "company": "Lupin Pharmaceuticals, Inc.",
+    "medicine": "Levofloxacin",
+    "stock": 270,
+    "dealer_number": "+55 824 109 8209"
+  },
+  {
+    "id": 243,
+    "company": "Accord Healthcare Inc.",
+    "medicine": "AMITRIPTYLINE HYDROCHLORIDE",
+    "stock": 452,
+    "dealer_number": "+86 867 733 9743"
+  },
+  {
+    "id": 244,
+    "company": "Vi-Jon",
+    "medicine": "Antiseptic Mouth Rinse",
+    "stock": 399,
+    "dealer_number": "+63 433 522 4389"
+  },
+  {
+    "id": 245,
+    "company": "Lake Erie Medical DBA Quality Care Products LLC",
+    "medicine": "Amoxicillin",
+    "stock": 438,
+    "dealer_number": "+505 173 544 9856"
+  },
+  {
+    "id": 246,
+    "company": "Ventura International LTD",
+    "medicine": "LBEL NATURAL FINISH MOISTURIZING FOUNDATION SPF 25",
+    "stock": 492,
+    "dealer_number": "+242 238 817 7240"
+  },
+  {
+    "id": 247,
+    "company": "Physicians Total Care, Inc.",
+    "medicine": "Coreg",
+    "stock": 280,
+    "dealer_number": "+55 262 933 3458"
+  },
+  {
+    "id": 248,
+    "company": "Aurobindo Pharma Limited",
+    "medicine": "Glyburide and Metformin Hydrochloride",
+    "stock": 109,
+    "dealer_number": "+33 182 270 3452"
+  },
+  {
+    "id": 249,
+    "company": "Jubilant HollisterStier LLC",
+    "medicine": "Pollens - Weeds, Marshelder/Poverty Mix",
+    "stock": 112,
+    "dealer_number": "+81 723 339 2029"
+  },
+  {
+    "id": 250,
+    "company": "H.J. Harkins Company, Inc.",
+    "medicine": "Benazepril Hydrochloride and Hydrochlorothiazide",
+    "stock": 102,
+    "dealer_number": "+1 334 314 8484"
+  }
+]
